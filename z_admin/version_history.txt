@@ -1,0 +1,25 @@
+/** 
+	the Foundry Core version history
+*/
+2.93: Updated for WP 3.6 compatibility
+2.94: Icons for Foundry sections added
+2.95: FSA css fixes on the close button & accordion pane height issue
+2.96: FSA Spec changes
+2.97: FSA bug with the default value not being set -- fixed
+2.98: FSA spec change - code snippet text field is now a text area, as well as minor fix - workaround for Chrome Norton extension. udff_uploadFile.js & udff_uploadImage.js uses jsonp instead of html for ajax communication.
+3.0.0: Changes to ajax url - the Foundry will be able to post requests even if the slug to the wp admin is not set to default. Also a typo in css, file name of css editor icon was corrected.
+3.1: One-Click Install ready.
+3.1.1: One-click install supports Front page settings (UDTOOLS2 v2.2 or above required)
+3.1.2: OneClick class fix on undefined index error. Bug fix on foundry not being able to save settings.
+3.1.3: OneClick now supports sidebar widget settings and foundry settings. UDTOOLS2 v2.2.3 required.
+3.1.4: RTL support.
+3.1.5: Addressed an issue with BBPRESS debug message (bbp_setup_current_user was called incorrectly). Important - This update requires easy modifications to a few WP files. Please see supplemental information.
+3.1.6: Removed unused files.
+4.0: wpadmin_sideMenu.css (used for icons in the side bar menu of dashboard) is reverted.
+4.1: Spell mistake corrections. "Save all" button added in the welcome screen.
+4.2: Upload fix for IE9 or earlier. Initialize all button added in the welcome screen. Foundry skin - text string changes.
+4.2.1: Fix on save all / init all buttons.
+4.2.2: bug fix on udff_adminMain.js (toggle switch checks up for save / init all status to avoid unwanted click triggers). Toggle switch fix in admin_ui_elements.phpas well as in udff_saveSetteingItemsAll.js
+4.2.3: Input element for the toggle switch (checkbox) reviewed. Note on problem with checkbox not reflecting the correct checked value for firefox users - you need to point your mouse cursor right on the address and click, then hit enter. See http //stackoverflow.com/questions/7876384/radio-boxes-not-resetting-to-checked-status-in-firefox
+4.2.4: Form - autocomplete for the toggle switch is now set to off because of firefox browser bug. See http //stackoverflow.com/questions/7988729/firefox-remembering-radio-buttons-incorrectly/8779735#8779735
+4.2.5: CSS changes for WordPress 3.8 Admin dashboard compatibility.

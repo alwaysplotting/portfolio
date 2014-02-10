@@ -1,0 +1,525 @@
+$header-bg-color: $darkgrey;
+$footer-bg-color: darken($darkgrey, 5%);
+$script-font: "skippy-sharp", $header-font-family;
+$title-font: "atrament-web", $header-font-family;
+
+$white: #fff;
+$black: #000;
+$darkgrey: #494949;
+$blue: #1d94d2;
+$darkblue: #325175;
+$orange: #e39248;
+$green: #87ab00;
+$darkred: #a13936;
+
+@mixin retina() {
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.25),
+         only screen and (min-resolution: 120dpi) {
+     @content;
+  }
+}
+
+.script { font-family: $script-font; }
+.condensed { font-family: $title-font; }
+
+body {
+  background-color: #F7F7F7;
+}
+.main {
+  background-color: #F7F7F7;
+  background-image:url(img/bg-wood.jpg);
+}
+.site-header {
+  background-color: $header-bg-color;
+  h2 {
+    padding: 10px 0;
+  }
+  .name h1 a:hover {
+    background-color: $topbar-link-bg-hover;
+  }
+  #menu-login-menu li a {
+    @include button-base;
+    @include button-style;
+    padding-right: 1.125em;
+    padding-left: 1.125em;
+    padding-top: 0.625em;
+    padding-bottom: 0.5625em;
+    font-size: 0.8125em;
+    margin-left: 4px;
+    background-color: #777;
+    @include border-top-radius(0);
+    @include border-bottom-radius(4px);
+    @include box-shadow(0 4px 0 #2f3031);
+  }
+  .contain-to-grid {
+    border-bottom: 5px solid darken($topbar-bg-color, 10%);
+    .oldie & {
+      border-color: $topbar-bg-color;
+    }
+  }
+  .oldie & {
+    .top-bar-section li > a {
+      background-color: #1D94D2;
+      &:hover {
+        background-color: $topbar-link-bg-hover;
+      }
+    }
+    .top-bar-section .dropdown li a {
+      background-color: $topbar-dropdown-link-bg;
+      &:hover {
+        background-color: $topbar-link-bg-hover;
+      }
+    }
+    .top-bar-section .has-dropdown > a:after {
+      content: "▼";
+      color: #98CFEB;
+      display: block;
+      top: 18px;
+      right: 3px;
+      border: none;
+    }
+  }
+  @media #{$topbar-media-query} {
+    .name {
+      margin-left: 2em;
+    }
+    .dropdown {
+        width: 400px;
+        padding: 1em 0em 1em 1em;
+        background-color: $topbar-dropdown-link-bg;
+        li {
+          width: 50%;
+          padding: .25em 0;
+          a {
+            white-space: normal;
+          }
+        }
+    }
+  }
+}
+
+.button {
+  @include border-radius(4px);
+  @include background-clip(padding-box);
+  @include box-shadow(0 4px 0 #1f7db7);
+}
+
+.icon {
+  width: 30px;
+  height: 26px;
+  float: left;
+  display: inline-block;
+  margin: 4px 10px 25px 0;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 210px 26px;
+  background-image: url(img/icons.png);
+  @include retina() {
+    background-image: url(img/icons-2x.png);
+  }
+  &.wba { background-position: 1px 0;}
+  &.screening { background-position: -30px 0;}
+  &.form { background-position: -60px 0;}
+  &.chat { background-position: -90px 0;}
+  &.incentive { background-position: -120px 0;}
+  &.phone { background-position: -149px 0;}
+  &.email { background-position: -180px 0;}
+}
+
+.page-header {
+  position: relative;
+  height: 200px;
+  background: $darkgrey;
+  .page-title {
+    font-size: em-calc(24);
+    @media #{$small} {
+      font-size: em-calc(48);
+    }
+    @extend .script;
+    color: #fff;
+    padding: 8px 30px 12px;
+    text-transform: uppercase;
+    background-color: $green;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  .page-feature {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+    img {
+      max-width: none;
+    }
+  }
+}
+
+article {
+  background-color: $white;
+  p, li {
+    color: #666;
+    line-height: 1.8;
+  }
+  h1 {
+    color: $black;
+    font-size: em-calc(36);
+    line-height: 1.2;
+  }
+  h2 {
+    @extend .condensed;
+    color: $blue;
+  }
+  h3 {
+    @extend .condensed
+  }
+  h4 {
+    margin-top: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $blue;
+    font-size: em-calc(18);
+  }
+  h5 {
+    font-weight: 600;
+    color: #444;
+  }
+  h6 {
+    color: $blue;
+  }
+  .flex-video.widescreen {
+    padding-top: 0;
+  }
+  .f-dropdown {
+    @include box-shadow(0 2px 12px rgba(0,0,0,.25));
+  }
+  table {
+    width: 100%;
+    th {
+      text-align: left;
+      padding: 1em;
+      background-color: $green;
+      color: $white;
+    }
+    td {
+      font-size: em-calc(16);
+      color: #666;
+      padding: 1em;
+      line-height: 1.6;
+      &.fancy {
+        color: $blue;
+        font-size: 1.3em;
+        background: #F1F1F1;
+        border-bottom: 1px solid #E1E1E1;
+      }
+      blockquote {
+        border: none;
+      }
+    }
+  }
+  .section-container {
+    margin-top: 2em;
+    section {
+      @include border-radius(4px);
+      margin-bottom: 2em!important;
+    }
+    .title {
+      font-weight: 300;
+      text-transform: none;
+      .q {
+        font-weight: 600;
+        float: left;
+        display: block;
+        margin: 0 .5em 0 0;
+        color: $blue;
+      }
+      a {
+        white-space: normal !important;
+      }
+    }
+    .content {
+      color: #666;
+      .a {
+        font-weight: 600;
+        float: left;
+        display: block;
+        margin: .25em 1em 0 0;
+      }
+    }
+  }
+}
+
+.sidebar {
+  background-color: #f9f9f9;
+  border-left: 3px solid #F2F2F2;
+  border-bottom: 3px solid #F2F2F2;
+  padding-top: em-calc(24);
+  padding-bottom: em-calc(48);
+  aside {
+    @media #{$small} {
+      padding-right: 30px;
+    }
+  }
+  .home & {
+    background-color: $white;
+    border-left: none;
+    border-bottom: none;
+  }
+  ul {
+    margin-left: 0;
+  }
+  li {
+    clear: both;
+    margin-bottom: 1em;
+  }
+  .note {
+    @include border-radius(4px);
+    @include background-clip(padding-box);
+    background-color: #e8e8e8;
+    @include box-shadow(0 4px 0 rgba(209,209,209,.7));
+    padding: 10px 30px;
+    font-size: em-calc(18);
+    @media #{$small} {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      margin-left: -24px;
+    }
+    a {
+      color: #888888;
+      word-wrap: break-word;
+    }
+    .button {
+      color: $white;
+    }
+    h2 {
+      margin: 15px auto 30px;
+      color: $black;
+      line-height: 1;
+      @extend .script;
+      text-transform: uppercase;
+      font-size: em-calc(34);
+    }
+  }
+  .quick {
+    margin-top: 2em;
+    padding: 0 20px;
+    @media #{$small} {
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: em-calc(28);
+      color: $black;
+    }
+    a {
+      color: $green;
+      #page-well-being-connect & {
+        color: $blue;
+      }
+    }
+    .button {
+      color: $white;
+    }
+  }
+  .greenbox {
+    @include border-radius(4px);
+    @include background-clip(padding-box);
+    padding: 10px 30px;
+    background-color: #e8efbf;
+    @media #{$small} {
+      margin-left: -24px;
+    }
+    .button {
+      background-color: #87ab00;
+      @include box-shadow(0 4px 0 #6a8f00);
+    }
+  }
+  .image {
+    img {
+      @media #{$small} {
+        margin-left: -40px;
+      }
+    }
+  }
+}
+
+.home {
+  .orbit-container {
+    background: $orange;
+    border-bottom: 5px solid darken($topbar-bg-color, 10%);
+    .slide-content {
+      position: relative;
+      @media #{$small} {
+        position: absolute;
+      }
+      top: 0;
+      padding: 7% 10%;
+      h1 {
+        color: $white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: em-calc(24);
+        @media #{$small} {
+          font-size: em-calc(72);
+        }
+        line-height: 1;
+        @extend .script;
+      }
+      h3 {
+        color: $white;
+        margin: 0;
+        font-size: em-calc(16);
+        @media #{$small} {
+          font-size: em-calc(48);
+        }
+        line-height: 1;
+        @extend .condensed;
+      }
+      &.black {
+        h1, h3 {
+          color: $black;
+        }
+      }
+      .button {
+        margin-top: 1%;
+        @media #{$small} {
+          margin-top: 6%;
+        }
+      }
+    }
+    .orbit-timer,
+    .orbit-slide-number {
+      display: none;
+    }
+    .orbit-bullets {
+      position: absolute;
+      bottom: 10px;
+      left: 36%;
+      @media #{$small} { left: 47%; }
+      top: inherit;
+      margin: 0 auto;
+      z-index: 100;
+      li {
+        border: none;
+        .oldie & {
+          background-color: #fff;
+          &.active {
+            background-color: $blue;
+          }
+        }
+      }
+    }
+  }
+
+  .more {
+    background-color: #EDEDED;
+    .flex-video {
+      margin-bottom: 0;
+    }
+    h6 {
+      color: $blue;
+      margin-bottom: 2em;
+    }
+    p {
+      color: #777;
+    }
+    .thumb img {
+      margin-top: em-calc(12);
+    }
+  }
+}
+
+.site-footer {
+  background-color: $footer-bg-color;
+  border-top: 5px solid darken($footer-bg-color, 10%);
+  h1, h2, h3, h4, h5, h6, a, p {
+    color: $white;
+  }
+  h5 {
+    @extend .condensed;
+    font-size: em-calc(36);
+  }
+  .contact h5 {
+    margin-bottom: 0;
+  }
+  ul {
+    @extend .no-bullet;
+    margin-left: 0;
+    font-size: em-calc(14);
+  }
+  .widget {
+    padding-bottom: 20px;
+  }
+  .legal {
+    p {
+      color: darken($white, 50%);
+      font-size: em-calc(13);
+    }
+    a {
+      color: darken($white, 50%);
+    }
+    h5 {
+      width: 350px;
+      text-indent: -9999em;
+      background-repeat: no-repeat;
+      background-size: 348px 55px;
+      background-image: url(img/footer-logos.png);
+      @include retina() {
+        background-image: url(img/footer-logos-2x.png);
+      }
+    }
+  }
+}
+
+@media #{$small} {
+  .more-padding {
+    padding: 50px 30px;
+  }
+  .content-padding {
+    padding: 30px 60px 30px 30px;
+  }
+}
+
+.wpcf7-submit {
+  @extend .button;
+}
+div.wpcf7-mail-sent-ok {
+  border: none;
+    padding: 2em;
+  background: $green;
+  color: #FFF;
+  font-size: em-calc(18);
+  text-align: center;
+}
+
+#page-healthykids {
+  .note {
+    .button {
+      text-align: left;
+    }
+  }
+}
+
+#page-program-overview {
+  .content {
+    ul {
+      font-size: em-calc(21);
+      line-height: 1.8;
+    }
+  }
+}
+
+#page-incentives {
+  td {
+    p {
+      margin-bottom: 0;
+      line-height: 1.8;
+    }
+    blockquote {
+      border-left: none;
+    }
+  }
+}

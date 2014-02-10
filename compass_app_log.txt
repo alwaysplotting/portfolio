@@ -1,0 +1,295 @@
+2014-01-05 14:18:16 identical style.css 
+2014-01-05 14:18:54 identical style.css 
+2014-01-05 14:19:53 identical style.css 
+2014-01-05 14:21:31 identical style.css 
+2014-01-05 14:23:25 identical style.css 
+2014-01-05 14:23:29 identical style.css 
+2014-01-05 14:24:35 identical style.css 
+2014-01-05 14:27:39 identical style.css 
+2014-01-05 14:28:59 identical style.css 
+2014-01-05 14:30:00 identical style.css 
+2014-01-05 14:41:59 identical style.css 
+2014-01-05 14:45:06 identical style.css 
+2014-01-05 14:48:24 overwrite style.css 
+2014-01-05 14:48:45 overwrite style.css 
+2014-01-05 14:55:39 identical style.css 
+2014-01-05 14:55:58 overwrite style.css 
+2014-01-05 14:58:51 overwrite style.css 
+2014-01-05 14:59:20 identical style.css 
+2014-01-05 15:00:19 identical style.css 
+2014-01-05 15:01:14 identical style.css 
+2014-01-05 15:02:15     error scss/style.scss (Line 24: File to import not found or unreadable: cartelstyle.
+Load paths:
+  /Users/jochde/htdocs/alwaysplotting/scss
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-01-05 15:02:15 overwrite style.css 
+2014-01-05 15:02:18     error scss/style.scss (Line 24: File to import not found or unreadable: cartelstyle.
+Load paths:
+  /Users/jochde/htdocs/alwaysplotting/scss
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-01-05 15:02:18 identical style.css 
+2014-01-05 15:02:22     error scss/style.scss (Line 24: File to import not found or unreadable: cartelstyle.
+Load paths:
+  /Users/jochde/htdocs/alwaysplotting/scss
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-01-05 15:02:22 overwrite style.css 
+2014-01-05 15:02:39 identical style.css 
+2014-01-05 15:02:44 identical style.css 
+2014-01-05 15:03:51 identical style.css 
+2014-01-05 15:51:43 overwrite style.css 
+2014-01-05 15:52:45     error scss/style.scss (Line 1017 of scss/_alwaysplotting.scss: Invalid CSS after "...3, h4, h5, h6,.": expected class name, was "&-over span h1,...")
+2014-01-05 15:52:45 overwrite style.css 
+2014-01-05 15:54:23 overwrite style.css 
+2014-01-05 15:58:07 overwrite style.css 
+2014-01-05 15:58:25     error scss/style.scss (Line 1049 of scss/_alwaysplotting.scss: Invalid CSS after "		&": expected "{", was "-over span {"
+
+"-over" may only be used at the beginning of a compound selector.)
+2014-01-05 15:58:25 overwrite style.css 
+2014-01-05 15:59:23 identical style.css 
+2014-01-05 15:59:52 identical style.css 
+2014-01-05 16:01:41 identical style.css 
+2014-01-05 16:02:00 overwrite style.css 
+2014-01-05 16:02:03 identical style.css 
+2014-01-05 16:03:42 overwrite style.css 
+2014-01-05 16:05:51 identical style.css 
+2014-01-05 16:08:11 identical style.css 
+2014-01-05 16:13:50 overwrite style.css 
+2014-01-05 16:14:08 identical style.css 
+2014-01-05 16:15:12 overwrite style.css 
+2014-01-05 16:18:27 identical style.css 
+2014-01-05 16:18:48 overwrite style.css 
+2014-01-05 16:22:52 identical style.css 
+2014-01-05 16:27:37 identical style.css 
+2014-01-05 16:28:53     error scss/style.scss (Line 12 of scss/_alwaysplotting.scss: Invalid CSS after "...der-font-family": expected ":", was ";")
+2014-01-05 16:28:53 overwrite style.css 
+2014-01-05 16:28:58     error scss/style.scss (Line 12 of scss/_alwaysplotting.scss: Invalid CSS after "...der-font-family": expected ":", was ";")
+2014-01-05 16:28:58 overwrite style.css 
+2014-01-05 16:29:09     error scss/style.scss (Line 1005 of scss/_alwaysplotting.scss: Undefined variable: "$bodycopy".)
+2014-01-05 16:29:09 overwrite style.css 
+2014-01-05 16:29:37     error scss/style.scss (Line 1005 of scss/_alwaysplotting.scss: Undefined variable: "$bodycopy".)
+2014-01-05 16:29:37 overwrite style.css 
+2014-01-05 16:29:50 overwrite style.css 
+2014-01-05 16:30:19 overwrite style.css 
+2014-01-05 16:35:01 overwrite style.css 
+2014-01-05 16:35:41 overwrite style.css 
+2014-01-05 16:37:10 overwrite style.css 
+2014-01-05 16:38:00 identical style.css 
+2014-01-05 16:39:52     error scss/style.scss (Line 50 of scss/_alwaysplotting.scss: Undefined variable: "$proxima".)
+2014-01-05 16:39:52 overwrite style.css 
+2014-01-05 16:40:57 overwrite style.css 
+2014-01-05 16:41:42 identical style.css 
+2014-01-05 16:41:54 overwrite style.css 
+2014-01-05 16:49:20 identical style.css 
+2014-01-05 16:50:37 overwrite style.css 
+2014-01-05 16:55:34 overwrite style.css 
+2014-01-05 17:06:08 overwrite style.css 
+2014-01-05 17:17:04 identical style.css 
+2014-01-05 17:17:08 identical style.css 
+2014-01-05 17:17:28 identical style.css 
+2014-01-05 17:19:12 overwrite style.css 
+2014-01-05 17:24:32 identical style.css 
+2014-01-05 17:25:44 overwrite style.css 
+2014-01-05 17:35:29 identical style.css 
+2014-01-05 17:36:56 identical style.css 
+2014-01-05 17:37:50 overwrite style.css 
+2014-01-05 17:38:08 identical style.css 
+2014-01-05 17:38:14 overwrite style.css 
+2014-01-05 17:38:31 overwrite style.css 
+2014-01-05 17:40:18 identical style.css 
+2014-01-05 17:41:23 overwrite style.css 
+2014-01-05 17:48:37 identical style.css 
+2014-01-05 17:48:46 overwrite style.css 
+2014-01-05 17:49:35 overwrite style.css 
+2014-01-05 17:59:12 overwrite style.css 
+2014-01-05 18:01:03 overwrite style.css 
+2014-01-05 18:01:24 identical style.css 
+2014-01-05 18:03:16 identical style.css 
+2014-01-05 18:03:37 overwrite style.css 
+2014-01-05 18:03:48 identical style.css 
+2014-01-05 18:04:05 overwrite style.css 
+2014-01-05 18:04:26 overwrite style.css 
+2014-01-05 18:04:41 identical style.css 
+2014-01-05 18:07:56 overwrite style.css 
+2014-01-05 18:08:57 overwrite style.css 
+2014-01-05 18:19:49 overwrite style.css 
+2014-01-05 18:19:53 overwrite style.css 
+2014-01-05 18:21:21 identical style.css 
+2014-01-05 18:21:26 overwrite style.css 
+2014-01-05 18:22:02 identical style.css 
+2014-01-05 18:22:08 overwrite style.css 
+2014-01-05 18:22:14 overwrite style.css 
+2014-01-05 18:22:42 identical style.css 
+2014-01-05 18:22:58 identical style.css 
+2014-01-05 18:30:01 overwrite style.css 
+2014-01-05 18:30:15 overwrite style.css 
+2014-01-05 18:39:16 overwrite style.css 
+2014-01-05 18:41:44 identical style.css 
+2014-01-05 18:44:12 overwrite style.css 
+2014-01-05 18:45:28 overwrite style.css 
+2014-01-05 18:48:23 overwrite style.css 
+2014-01-05 18:49:04 overwrite style.css 
+2014-01-05 18:49:28 overwrite style.css 
+2014-01-05 18:49:31 identical style.css 
+2014-01-05 18:49:48 overwrite style.css 
+2014-01-05 18:50:26 identical style.css 
+2014-01-05 18:50:48 overwrite style.css 
+2014-01-05 18:50:53 identical style.css 
+2014-01-05 18:53:01 identical style.css 
+2014-01-05 18:54:39 overwrite style.css 
+2014-01-05 19:01:39 identical style.css 
+2014-01-05 19:05:19 overwrite style.css 
+2014-01-05 19:05:28 identical style.css 
+2014-01-05 19:06:33 identical style.css 
+2014-01-05 19:06:41 overwrite style.css 
+2014-01-05 19:07:01 identical style.css 
+2014-01-05 19:07:36 overwrite style.css 
+2014-01-05 19:11:01 overwrite style.css 
+2014-01-05 19:11:11 identical style.css 
+2014-01-05 19:11:30 overwrite style.css 
+2014-01-05 19:12:19 identical style.css 
+2014-01-05 19:14:23 identical style.css 
+2014-01-05 19:15:17 overwrite style.css 
+2014-01-05 19:16:11 identical style.css 
+2014-01-05 19:16:29 overwrite style.css 
+2014-01-05 19:16:35 identical style.css 
+2014-01-05 19:17:10 identical style.css 
+2014-01-05 19:17:26 overwrite style.css 
+2014-01-05 19:17:43 identical style.css 
+2014-01-05 19:18:02 identical style.css 
+2014-01-05 19:18:11 identical style.css 
+2014-01-05 19:18:41 overwrite style.css 
+2014-01-05 19:18:55 identical style.css 
+2014-01-05 19:19:10 overwrite style.css 
+2014-01-05 19:25:29     error scss/style.scss (Line 1307 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-05 19:25:29 overwrite style.css 
+2014-01-05 19:25:51 overwrite style.css 
+2014-01-05 19:26:24 overwrite style.css 
+2014-01-05 19:26:54 identical style.css 
+2014-01-05 19:28:29 overwrite style.css 
+2014-01-05 19:29:24 overwrite style.css 
+2014-01-05 19:32:35 overwrite style.css 
+2014-01-05 19:33:55 overwrite style.css 
+2014-01-05 19:37:35 identical style.css 
+2014-01-05 19:42:43 overwrite style.css 
+2014-01-05 19:47:15     error scss/style.scss (Line 1405 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-05 19:47:15 overwrite style.css 
+2014-01-05 19:48:22     error scss/style.scss (Line 1405 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-05 19:48:22 overwrite style.css 
+2014-01-05 19:48:40 overwrite style.css 
+2014-01-05 19:56:48     error scss/style.scss (Line 1556 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-05 19:56:48 overwrite style.css 
+2014-01-05 19:57:12 overwrite style.css 
+2014-01-05 19:57:47 identical style.css 
+2014-01-05 20:02:09     error scss/style.scss (Line 1677 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-05 20:02:09 overwrite style.css 
+2014-01-05 20:02:22 overwrite style.css 
+2014-01-05 20:03:52 overwrite style.css 
+2014-01-05 20:06:00 overwrite style.css 
+2014-01-05 20:08:47 identical style.css 
+2014-01-05 20:08:49 overwrite style.css 
+2014-01-05 20:09:32 overwrite style.css 
+2014-01-05 20:09:58 identical style.css 
+2014-01-05 20:26:23 identical style.css 
+2014-01-05 20:26:49     error scss/style.scss (Line 1821 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-05 20:26:49 overwrite style.css 
+2014-01-05 20:26:54 overwrite style.css 
+2014-01-05 20:27:43 identical style.css 
+2014-01-05 20:37:35     error scss/style.scss (Line 1935 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-05 20:37:35 overwrite style.css 
+2014-01-05 20:37:49 overwrite style.css 
+2014-01-05 20:40:15 overwrite style.css 
+2014-01-05 20:44:43     error scss/style.scss (Line 1615 of scss/_alwaysplotting.scss: Invalid CSS after "		}": expected selector or at-rule, was "}")
+2014-01-05 20:44:43 overwrite style.css 
+2014-01-05 20:44:53 overwrite style.css 
+2014-01-05 20:51:18 identical style.css 
+2014-01-05 21:09:39 overwrite style.css 
+2014-01-05 22:17:58 overwrite style.css 
+2014-01-05 22:18:35 overwrite style.css 
+2014-01-05 22:19:09 identical style.css 
+2014-01-05 22:20:31 identical style.css 
+2014-01-05 22:21:01 identical style.css 
+2014-01-05 22:21:53 identical style.css 
+2014-01-05 22:33:05 identical style.css 
+2014-01-05 22:36:25 overwrite style.css 
+2014-01-05 22:38:04 identical style.css 
+2014-01-05 22:43:37 identical style.css 
+2014-01-05 22:46:22 overwrite style.css 
+2014-01-05 22:46:43 overwrite style.css 
+2014-01-06 11:06:37 overwrite style.css 
+2014-01-06 11:15:28 identical style.css 
+2014-01-06 11:16:51 overwrite style.css 
+2014-01-06 11:19:05 identical style.css 
+2014-01-06 11:27:17 overwrite style.css 
+2014-01-06 12:06:52     error scss/style.scss (Line 885 of scss/_alwaysplotting.scss: Invalid CSS after "				}": expected selector or at-rule, was "}")
+2014-01-06 12:06:52 overwrite style.css 
+2014-01-06 12:31:59     error scss/style.scss (Line 2400 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-06 12:31:59 overwrite style.css 
+2014-01-06 12:32:34     error scss/style.scss (Line 2399 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-06 12:32:34 overwrite style.css 
+2014-01-06 12:33:04 overwrite style.css 
+2014-01-06 12:34:04     error scss/style.scss (Line 2399 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-06 12:34:04 overwrite style.css 
+2014-01-06 12:36:45 identical style.css 
+2014-01-06 12:39:56     error scss/style.scss (Line 1031 of scss/_alwaysplotting.scss: Invalid CSS after "				}": expected selector or at-rule, was "}")
+2014-01-06 12:39:56 overwrite style.css 
+2014-01-06 12:40:07     error scss/style.scss (Line 1032 of scss/_alwaysplotting.scss: Invalid CSS after "			}": expected selector or at-rule, was "}")
+2014-01-06 12:40:07 overwrite style.css 
+2014-01-06 12:40:16 overwrite style.css 
+2014-01-06 12:45:17 identical style.css 
+2014-01-06 12:51:03 overwrite style.css 
+2014-01-06 12:55:27     error scss/style.scss (Line 2697 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-06 12:55:27 overwrite style.css 
+2014-01-06 12:57:23 overwrite style.css 
+2014-01-06 12:57:59 identical style.css 
+2014-01-06 12:59:36 overwrite style.css 
+2014-01-06 13:04:11 overwrite style.css 
+2014-01-06 13:16:50     error scss/style.scss (Line 2876 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-06 13:16:50 overwrite style.css 
+2014-01-06 13:23:30 overwrite style.css 
+2014-01-06 13:24:19 identical style.css 
+2014-01-06 13:37:33 identical style.css 
+2014-01-06 13:47:54 identical style.css 
+2014-01-06 13:54:41     error scss/style.scss (Line 1196 of scss/_alwaysplotting.scss: Invalid CSS after "					@include ": expected identifier, was "$box-shadow(ins...")
+2014-01-06 13:54:41 overwrite style.css 
+2014-01-06 13:55:35 identical style.css 
+2014-01-06 13:58:08 overwrite style.css 
+2014-01-06 13:58:26 overwrite style.css 
+2014-01-06 14:09:12 identical style.css 
+2014-01-06 14:09:24 identical style.css 
+2014-01-06 14:17:00 identical style.css 
+2014-01-06 14:19:39 overwrite style.css 
+2014-01-06 14:22:14 overwrite style.css 
+2014-01-06 14:22:55 overwrite style.css 
+2014-01-06 14:35:34 overwrite style.css 
+2014-01-06 14:38:28 overwrite style.css 
+2014-01-06 14:38:58     error scss/style.scss (Line 2905 of scss/_alwaysplotting.scss: Invalid CSS after "	}": expected "}", was "")
+2014-01-06 14:38:58 overwrite style.css 
+2014-01-06 14:40:43 overwrite style.css 
+2014-01-06 14:41:18 identical style.css 

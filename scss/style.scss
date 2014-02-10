@@ -1,0 +1,21 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+@import "compass/utilities";
+@import "compass/typography";
+@import "compass/css3";
+
+@import "theme";
+
+// This includes all of the foundation global elements that are needed to work with any of the other files.
+
+@import "foundation/variables";
+@import "foundation/normalize";
+
+// Foundation Components
+// @import
+//   "foundation/components/flex-video";
+// @import "foundation/oldie";
+
+@import "wp", "alwaysplotting";
+// @import "wp", "shortcodes";
