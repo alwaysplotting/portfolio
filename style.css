@@ -248,13 +248,13 @@ embed, iframe, object { max-width: 100%; }
 /*--------------------------------------------------------
 	1.COMMON
 --------------------------------------------------------*/
-/* line 59, scss/_alwaysplotting.scss */
+/* line 60, scss/_alwaysplotting.scss */
 header, nav, section, article, aside, footer { display: block; }
 
-/* line 62, scss/_alwaysplotting.scss */
+/* line 63, scss/_alwaysplotting.scss */
 body { background: white; font-family: "brandon-grotesque-1", "brandon-grotesque-2", Helvetica, Arial, sans-serif; color: #555; padding: auto; margin: 0 auto; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
 
-/* line 71, scss/_alwaysplotting.scss */
+/* line 72, scss/_alwaysplotting.scss */
 a img { border: none; }
 
 /*--------------------------------------------------------
@@ -265,96 +265,96 @@ i.-- Header
 -----------------------------*/
 /*Wrappers
 ----------------------------*/
-/* line 85, scss/_alwaysplotting.scss */
-#header-wrapper { width: 100%; margin-bottom: 25px; background-color: #ff9000; padding: 15px 0; }
-/* line 91, scss/_alwaysplotting.scss */
+/* line 86, scss/_alwaysplotting.scss */
+#header-wrapper { width: 100%; margin-bottom: 25px; background: #333333; padding: 15px 0; }
+/* line 93, scss/_alwaysplotting.scss */
 #header-wrapper #header-inner { max-width: 870px; height: 100px; margin: auto; min-height: 100px; height: auto !important; }
 
 /*Logo
 ----------------------------*/
-/* line 102, scss/_alwaysplotting.scss */
+/* line 104, scss/_alwaysplotting.scss */
 header #logo { height: 44px; width: 280px; display: block; margin: 0 auto; position: relative; padding: 30px; }
-/* line 110, scss/_alwaysplotting.scss */
+/* line 112, scss/_alwaysplotting.scss */
 header #logo a { display: block; text-align: center; -webkit-transition: opacity 0.25s ease-out; -moz-transition: opacity 0.25s ease-out; -ms-transition: opacity 0.25s ease-out; -o-transition: opacity 0.25s ease-out; transition: opacity 0.25s ease-out; }
-/* line 115, scss/_alwaysplotting.scss */
+/* line 117, scss/_alwaysplotting.scss */
 header #logo a:hover { opacity: 0.5; -webkit-transition: opacity 0.25s ease-in; -moz-transition: opacity 0.25s ease-in; -ms-transition: opacity 0.25s ease-in; -o-transition: opacity 0.25s ease-in; transition: opacity 0.25s ease-in; }
-/* line 119, scss/_alwaysplotting.scss */
+/* line 121, scss/_alwaysplotting.scss */
 header #logo a:active { position: relative; top: 1px; }
-/* line 123, scss/_alwaysplotting.scss */
+/* line 125, scss/_alwaysplotting.scss */
 header #logo a .name { font-family: "proxima-nova-1", "proxima-nova-2", Helvetica, Arial, sans-serif; font-size: 2em; font-weight: 900; color: white; line-height: 1; text-transform: lowercase; letter-spacing: -0.01em; }
-/* line 132, scss/_alwaysplotting.scss */
+/* line 134, scss/_alwaysplotting.scss */
 header #logo a .subname { font-family: "proxima-nova-1", "proxima-nova-2", Helvetica, Arial, sans-serif; font-size: 0.75em; font-weight: 400; color: white; text-transform: uppercase; letter-spacing: 0.14em; line-height: 1.6; }
 
 /*Main menu
 ----------------------------*/
-/* line 148, scss/_alwaysplotting.scss */
+/* line 150, scss/_alwaysplotting.scss */
 header nav#primary-nav ul { max-width: 700px; position: relative; font-size: 11px; margin: 12px auto; text-transform: uppercase; text-align: center; }
-/* line 156, scss/_alwaysplotting.scss */
+/* line 158, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation { width: 100%; max-width: 100%; }
-/* line 161, scss/_alwaysplotting.scss */
+/* line 163, scss/_alwaysplotting.scss */
 header nav#primary-nav ul li { line-height: 1; position: relative; display: inline-block; padding: 0 14px; /*Sub menu*/ }
-/* line 169, scss/_alwaysplotting.scss */
+/* line 171, scss/_alwaysplotting.scss */
 header nav#primary-nav ul li:last-child { padding-right: 0; }
-/* line 172, scss/_alwaysplotting.scss */
-header nav#primary-nav ul li a { color: white; background-color: #ff9000; text-decoration: none; text-align: center; padding: 4px 8px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-transition: color 0.25s ease-out; -moz-transition: color 0.25s ease-out; -ms-transition: color 0.25s ease-out; -o-transition: color 0.25s ease-out; transition: color 0.25s ease-out; }
-/* line 181, scss/_alwaysplotting.scss */
-header nav#primary-nav ul li a:hover { color: #ff9000; background-color: white; -webkit-transition: background-color 0.25s ease-in; -moz-transition: background-color 0.25s ease-in; -ms-transition: background-color 0.25s ease-in; -o-transition: background-color 0.25s ease-in; transition: background-color 0.25s ease-in; }
-/* line 199, scss/_alwaysplotting.scss */
+/* line 174, scss/_alwaysplotting.scss */
+header nav#primary-nav ul li a { color: white; background-color: #333333; text-decoration: none; text-align: center; padding: 4px 8px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-transition: color 0.25s ease-out; -moz-transition: color 0.25s ease-out; -ms-transition: color 0.25s ease-out; -o-transition: color 0.25s ease-out; transition: color 0.25s ease-out; }
+/* line 183, scss/_alwaysplotting.scss */
+header nav#primary-nav ul li a:hover { color: #333333; background-color: white; -webkit-transition: background-color 0.25s ease-in; -moz-transition: background-color 0.25s ease-in; -ms-transition: background-color 0.25s ease-in; -o-transition: background-color 0.25s ease-in; transition: background-color 0.25s ease-in; }
+/* line 201, scss/_alwaysplotting.scss */
 header nav#primary-nav ul li ul.sub-menu, header nav#primary-nav ul li ul.children { min-width: 90px; float: left; position: absolute; top: 0; background: #000; background: rgba(0, 0, 0, 0.8); margin: 0 0 0 -20px; color: #ccc; display: none; z-index: 101; white-space: nowrap; padding: 15px 20px; }
-/* line 213, scss/_alwaysplotting.scss */
+/* line 215, scss/_alwaysplotting.scss */
 header nav#primary-nav ul li ul.sub-menu li, header nav#primary-nav ul li ul.children li { float: none; position: relative; z-index: 101; margin: 0; padding: 0; width: 100%; line-height: 26px; }
-/* line 222, scss/_alwaysplotting.scss */
+/* line 224, scss/_alwaysplotting.scss */
 header nav#primary-nav ul li ul.sub-menu li a, header nav#primary-nav ul li ul.children li a { text-transform: none; font: 13px/26px Arial,Helvetica,sans-serif; color: #999; }
-/* line 226, scss/_alwaysplotting.scss */
+/* line 228, scss/_alwaysplotting.scss */
 header nav#primary-nav ul li ul.sub-menu li a:hover, header nav#primary-nav ul li ul.children li a:hover { color: #fff; }
-/* line 230, scss/_alwaysplotting.scss */
+/* line 232, scss/_alwaysplotting.scss */
 header nav#primary-nav ul li ul.sub-menu li.current-menu-item a, header nav#primary-nav ul li ul.sub-menu li.current-page-item a, header nav#primary-nav ul li ul.children li.current-menu-item a, header nav#primary-nav ul li ul.children li.current-page-item a { color: #fff; }
-/* line 233, scss/_alwaysplotting.scss */
+/* line 235, scss/_alwaysplotting.scss */
 header nav#primary-nav ul li ul.sub-menu li.current-page-parent a, header nav#primary-nav ul li ul.children li.current-page-parent a { color: #000; }
 
 /* Mobile menu toggle
 ----------------------------*/
-/* line 245, scss/_alwaysplotting.scss */
+/* line 247, scss/_alwaysplotting.scss */
 header .mobileMenuToggle { height: 26px; width: 100%; float: left; text-align: center; display: none; margin: 19px auto 15px; }
-/* line 253, scss/_alwaysplotting.scss */
+/* line 255, scss/_alwaysplotting.scss */
 header .mobileMenuToggle a, #header-wrapper #header-inner header .mobileMenuToggle.open a { width: 26px; height: 26px; float: left; position: relative; left: 50%; margin-left: -13px; }
-/* line 261, scss/_alwaysplotting.scss */
+/* line 263, scss/_alwaysplotting.scss */
 header .mobileMenuToggle a { background: url(./images/ui/mobileMenu-toggle.png) center 0 no-repeat; }
-/* line 264, scss/_alwaysplotting.scss */
+/* line 266, scss/_alwaysplotting.scss */
 header .mobileMenuToggle.open a { background: url(./images/ui/mobileMenu-toggle.png) center -26px no-repeat; }
 
 /* Tablet Landscape menu
 ----------------------------*/
-/* line 271, scss/_alwaysplotting.scss */
+/* line 273, scss/_alwaysplotting.scss */
 #header-wrapper #header-inner.is_tablet { height: auto; overflow: hidden; }
-/* line 275, scss/_alwaysplotting.scss */
+/* line 277, scss/_alwaysplotting.scss */
 #header-wrapper #header-inner.is_tablet header #logo { margin: auto; float: none; }
-/* line 279, scss/_alwaysplotting.scss */
+/* line 281, scss/_alwaysplotting.scss */
 #header-wrapper #header-inner.is_tablet .mobileMenuToggle { border-top: 1px solid #eee; padding-top: 15px; margin-top: 0; }
 
-/* line 286, scss/_alwaysplotting.scss */
+/* line 288, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation { float: left; text-align: center; width: 100%; margin-top: 0; padding-bottom: 5px; display: none; line-height: 20px; }
-/* line 295, scss/_alwaysplotting.scss */
+/* line 297, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation li { margin: 10px 0; float: none; line-height: 20px; position: static; /*Sub menu*/ }
-/* line 301, scss/_alwaysplotting.scss */
+/* line 303, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation li a { padding: 0; }
-/* line 304, scss/_alwaysplotting.scss */
+/* line 306, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation li:first-child { margin-top: 0; }
-/* line 309, scss/_alwaysplotting.scss */
+/* line 311, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation li ul.sub-menu { background: url(./images/ui/sub-menu-indicator.png) center 0 no-repeat; border-bottom: 1px solid #f6f6f6; border-top: 1px solid #f6f6f6; color: #ccc; display: block !important; opacity: 1 !important; float: none; margin: 14px auto; padding: 10px 0; position: inherit; top: auto; white-space: normal; width: 100%; z-index: auto; }
-/* line 325, scss/_alwaysplotting.scss */
+/* line 327, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation li:last-child ul.sub-menu { border-bottom: none; padding-bottom: 0; }
-/* line 329, scss/_alwaysplotting.scss */
+/* line 331, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation li ul.sub-menu li, header nav#primary-nav ul.mobile-navigation li ul.children li { float: none; margin: 7px 0; padding: 0; width: 100%; line-height: 15px; }
-/* line 336, scss/_alwaysplotting.scss */
+/* line 338, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation li ul.sub-menu li a, header nav#primary-nav ul.mobile-navigation li ul.children li a { padding: 0; color: #000; }
-/* line 340, scss/_alwaysplotting.scss */
+/* line 342, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation li ul.sub-menu li a:hover, header nav#primary-nav ul.mobile-navigation li ul.children li a:hover { color: #666; }
-/* line 344, scss/_alwaysplotting.scss */
+/* line 346, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation li ul.sub-menu li.current-menu-item a, header nav#primary-nav ul.mobile-navigation li ul.sub-menu li.current_page_item a, header nav#primary-nav ul.mobile-navigation li ul.children li.current-menu-item a, header nav#primary-nav ul.mobile-navigation li ul.children li.current_page_item a { color: #000; }
-/* line 347, scss/_alwaysplotting.scss */
+/* line 349, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation li ul.sub-menu li.current-menu-item a:hover, header nav#primary-nav ul.mobile-navigation li ul.sub-menu li.current_page_item a:hover, header nav#primary-nav ul.mobile-navigation li ul.children li.current-menu-item a:hover, header nav#primary-nav ul.mobile-navigation li ul.children li.current_page_item a:hover { color: #000; }
-/* line 351, scss/_alwaysplotting.scss */
+/* line 353, scss/_alwaysplotting.scss */
 header nav#primary-nav ul.mobile-navigation li ul.sub-menu li.current-menu-ancestor a, header nav#primary-nav ul.mobile-navigation li ul.sub-menu li.current_page_parent a, header nav#primary-nav ul.mobile-navigation li ul.children li.current-menu-ancestor a, header nav#primary-nav ul.mobile-navigation li ul.children li.current_page_parent a { color: #000; }
 
 /*----------------------------
@@ -362,464 +362,464 @@ ii.-- Content
 -----------------------------*/
 /*Wrappers
 ----------------------------*/
-/* line 364, scss/_alwaysplotting.scss */
+/* line 366, scss/_alwaysplotting.scss */
 #content-wrapper { width: 100%; margin-bottom: 40px; min-height: 300px; height: auto !important; height: 400px; }
-/* line 371, scss/_alwaysplotting.scss */
+/* line 373, scss/_alwaysplotting.scss */
 #content-wrapper section.homepage { width: 870px; margin: auto; }
-/* line 375, scss/_alwaysplotting.scss */
+/* line 377, scss/_alwaysplotting.scss */
 #content-wrapper section.pages { max-width: 870px; margin: auto; }
-/* line 379, scss/_alwaysplotting.scss */
+/* line 381, scss/_alwaysplotting.scss */
 #content-wrapper section.portfolio { width: 870px; margin: auto; }
-/* line 383, scss/_alwaysplotting.scss */
+/* line 385, scss/_alwaysplotting.scss */
 .single-udt_portfolio #content-wrapper section.pages { margin-bottom: 40px; }
-/* line 386, scss/_alwaysplotting.scss */
+/* line 388, scss/_alwaysplotting.scss */
 #content-wrapper section.slider-full-width { max-width: 100%; margin: auto; }
-/* line 390, scss/_alwaysplotting.scss */
+/* line 392, scss/_alwaysplotting.scss */
 #content-wrapper .grid-layout { margin-bottom: 0; }
 
 /*Section-title & teaser
 ----------------------------*/
-/* line 398, scss/_alwaysplotting.scss */
+/* line 400, scss/_alwaysplotting.scss */
 #section-title { max-width: 870px; width: auto; text-align: center; padding: 40px 0; margin: 10px auto; }
-/* line 407, scss/_alwaysplotting.scss */
+/* line 409, scss/_alwaysplotting.scss */
 #section-title :before { content: ""; }
-/* line 410, scss/_alwaysplotting.scss */
+/* line 412, scss/_alwaysplotting.scss */
 #section-title :after { content: ""; }
 
-/* line 421, scss/_alwaysplotting.scss */
+/* line 423, scss/_alwaysplotting.scss */
 #teaser { font-size: 1.25em; color: #666; margin: 0 auto 50px; }
 
 /*Homepage
 ----------------------------*/
-/* line 432, scss/_alwaysplotting.scss */
+/* line 434, scss/_alwaysplotting.scss */
 .home #section-title { margin: 0 auto; padding: 12px; }
-/* line 436, scss/_alwaysplotting.scss */
+/* line 438, scss/_alwaysplotting.scss */
 .home #section-title h1 { text-indent: -99999; display: none; }
 
 /*Grid*/
-/* line 445, scss/_alwaysplotting.scss */
+/* line 447, scss/_alwaysplotting.scss */
 #content-wrapper section.homepage #grid { width: 876px; overflow: hidden; margin-left: -6px; position: relative; z-index: 1; }
-/* line 452, scss/_alwaysplotting.scss */
+/* line 454, scss/_alwaysplotting.scss */
 #content-wrapper section.homepage #grid .thumb-type-1, #content-wrapper section.homepage #grid .thumb-type-2, #content-wrapper section.homepage #grid .thumb-type-3, #content-wrapper section.homepage #grid .thumb-type-4, #content-wrapper section.homepage #grid .thumb-type-5 { float: left; overflow: hidden; margin: 0 0 6px 6px; }
-/* line 457, scss/_alwaysplotting.scss */
+/* line 459, scss/_alwaysplotting.scss */
 #content-wrapper section.homepage #grid .thumb-type-1 { width: 286px !important; height: 196px !important; }
-/* line 461, scss/_alwaysplotting.scss */
+/* line 463, scss/_alwaysplotting.scss */
 #content-wrapper section.homepage #grid .thumb-type-2 { width: 286px !important; height: 398px !important; }
-/* line 465, scss/_alwaysplotting.scss */
+/* line 467, scss/_alwaysplotting.scss */
 #content-wrapper section.homepage #grid .thumb-type-3 { width: 578px !important; height: 398px !important; }
-/* line 469, scss/_alwaysplotting.scss */
+/* line 471, scss/_alwaysplotting.scss */
 #content-wrapper section.homepage #grid .thumb-type-4 { width: 578px !important; height: 196px !important; }
-/* line 473, scss/_alwaysplotting.scss */
+/* line 475, scss/_alwaysplotting.scss */
 #content-wrapper section.homepage #grid .thumb-type-5 { max-width: 100%; }
-/* line 477, scss/_alwaysplotting.scss */
+/* line 479, scss/_alwaysplotting.scss */
 #content-wrapper section.homepage .pages { margin-bottom: 50px; }
 
 /*Portfolio Filter */
-/* line 483, scss/_alwaysplotting.scss */
+/* line 485, scss/_alwaysplotting.scss */
 .portfolio-filter-wrapper { margin-bottom: 30px; font-size: 0.9375em; }
-/* line 487, scss/_alwaysplotting.scss */
+/* line 489, scss/_alwaysplotting.scss */
 .portfolio-filter-wrapper a { color: #ff0000; }
-/* line 490, scss/_alwaysplotting.scss */
+/* line 492, scss/_alwaysplotting.scss */
 .portfolio-filter-wrapper a.active { color: #999999; }
 
-/* line 496, scss/_alwaysplotting.scss */
+/* line 498, scss/_alwaysplotting.scss */
 .portfolio-filter-wrapper-below-content { border-top: 1px solid #e6e6e6; padding-top: 20px; }
 
 /*Navigation*/
-/* line 503, scss/_alwaysplotting.scss */
+/* line 505, scss/_alwaysplotting.scss */
 #folio-navigation { max-width: 870px; height: 40px; position: relative; margin: 100px auto 0; display: none; }
-/* line 510, scss/_alwaysplotting.scss */
+/* line 512, scss/_alwaysplotting.scss */
 #folio-navigation ul { float: none; margin: 0; list-style: none; }
-/* line 515, scss/_alwaysplotting.scss */
+/* line 517, scss/_alwaysplotting.scss */
 #folio-navigation ul li { margin: 0; }
-/* line 518, scss/_alwaysplotting.scss */
+/* line 520, scss/_alwaysplotting.scss */
 #folio-navigation ul li#closeProject a { width: 40px; height: 40px; background: black url(./images/ui/projects-close.png) 0 50% no-repeat; float: left; position: relative; left: 50%; margin-left: -60px; -webkit-transition: opacity 0.25s ease-in-out; -moz-transition: opacity 0.25s ease-in-out; -ms-transition: opacity 0.25s ease-in-out; -o-transition: opacity 0.25s ease-in-out; transition: opacity 0.25s ease-in-out; -webkit-border-radius: 100px; -moz-border-radius: 100px; -ms-border-radius: 100px; -o-border-radius: 100px; border-radius: 100px; }
-/* line 529, scss/_alwaysplotting.scss */
+/* line 531, scss/_alwaysplotting.scss */
 #folio-navigation ul li#closeProject a:hover { filter: alpha(opacity=70); opacity: .7; }
-/* line 535, scss/_alwaysplotting.scss */
+/* line 537, scss/_alwaysplotting.scss */
 #folio-navigation ul li#nextProject a { width: 40px; height: 40px; background: black url(./images/ui/projects-direction-nav.png) 0 -40px no-repeat; float: right; text-indent: -9999px; -webkit-transition: opacity 0.25s ease-in-out; -moz-transition: opacity 0.25s ease-in-out; -ms-transition: opacity 0.25s ease-in-out; -o-transition: opacity 0.25s ease-in-out; transition: opacity 0.25s ease-in-out; -webkit-border-radius: 100px; -moz-border-radius: 100px; -ms-border-radius: 100px; -o-border-radius: 100px; border-radius: 100px; }
-/* line 544, scss/_alwaysplotting.scss */
+/* line 546, scss/_alwaysplotting.scss */
 #folio-navigation ul li#nextProject a:hover { filter: alpha(opacity=70); opacity: .7; }
-/* line 549, scss/_alwaysplotting.scss */
+/* line 551, scss/_alwaysplotting.scss */
 #folio-navigation ul li#nextProject.disabled { filter: alpha(opacity=30); opacity: .3; width: 40px; height: 40px; background: grey url(./images/ui/projects-direction-nav.png) 0 -40px no-repeat; float: right; }
-/* line 559, scss/_alwaysplotting.scss */
+/* line 561, scss/_alwaysplotting.scss */
 #folio-navigation ul li#prevProject a { width: 40px; height: 40px; background: black url(./images/ui/projects-direction-nav.png) 0 0 no-repeat; float: left; text-indent: -9999px; -webkit-transition: opacity 0.25s ease-in-out; -moz-transition: opacity 0.25s ease-in-out; -ms-transition: opacity 0.25s ease-in-out; -o-transition: opacity 0.25s ease-in-out; transition: opacity 0.25s ease-in-out; -webkit-border-radius: 100px; -moz-border-radius: 100px; -ms-border-radius: 100px; -o-border-radius: 100px; border-radius: 100px; }
-/* line 568, scss/_alwaysplotting.scss */
+/* line 570, scss/_alwaysplotting.scss */
 #folio-navigation ul li#prevProject a:hover { filter: alpha(opacity=70); opacity: .7; }
-/* line 573, scss/_alwaysplotting.scss */
+/* line 575, scss/_alwaysplotting.scss */
 #folio-navigation ul li#prevProject.disabled { filter: alpha(opacity=30); opacity: .3; width: 40px; height: 40px; background: grey url(./images/ui/projects-direction-nav.png) 0 0 no-repeat; float: left; }
 
 /*Portfolio
 ----------------------------*/
 /*Full-width featured image*/
-/* line 590, scss/_alwaysplotting.scss */
+/* line 592, scss/_alwaysplotting.scss */
 .featured-media-container { max-width: 870px; height: 490px; margin-bottom: 50px; position: relative; overflow: hidden; }
-/* line 597, scss/_alwaysplotting.scss */
+/* line 599, scss/_alwaysplotting.scss */
 .featured-media-container img { max-width: 100%; height: auto; }
-/* line 601, scss/_alwaysplotting.scss */
+/* line 603, scss/_alwaysplotting.scss */
 .featured-media-container .video, .featured-media-container .flexslider { margin-bottom: 0; height: 490px; }
-/* line 605, scss/_alwaysplotting.scss */
+/* line 607, scss/_alwaysplotting.scss */
 .featured-media-container .column-featured-half { width: 50%; float: left; }
-/* line 609, scss/_alwaysplotting.scss */
+/* line 611, scss/_alwaysplotting.scss */
 .featured-media-container .column-featured-half img { max-width: 100%; height: auto; }
 
-/* line 619, scss/_alwaysplotting.scss */
+/* line 621, scss/_alwaysplotting.scss */
 .single-udt_portfolio .pages .featured-media-container:last-child { margin-bottom: 0; }
 
 /*Portfolio grid*/
-/* line 625, scss/_alwaysplotting.scss */
+/* line 627, scss/_alwaysplotting.scss */
 #content-wrapper section.pages #grid-folio { width: 876px; overflow: hidden; margin-left: -6px; position: relative; z-index: 1; }
-/* line 632, scss/_alwaysplotting.scss */
+/* line 634, scss/_alwaysplotting.scss */
 #content-wrapper section.pages #grid-folio .thumb { width: 286px; height: 196px; overflow: hidden; margin: 0 0 6px 6px; }
-/* line 638, scss/_alwaysplotting.scss */
+/* line 640, scss/_alwaysplotting.scss */
 #content-wrapper section.pages #grid-folio .thumb a img { position: relative; z-index: -1; }
 
 /*Blog
 ----------------------------*/
 /*Blog layout:grid*/
-/* line 648, scss/_alwaysplotting.scss */
+/* line 650, scss/_alwaysplotting.scss */
 #content-inner-blog-grid { max-width: 870px; overflow: hidden; }
-/* line 652, scss/_alwaysplotting.scss */
+/* line 654, scss/_alwaysplotting.scss */
 #content-inner-blog-grid #blog-grid-container { max-width: 915px; margin-left: -45px; }
-/* line 656, scss/_alwaysplotting.scss */
+/* line 658, scss/_alwaysplotting.scss */
 #content-inner-blog-grid #blog-grid-container article { display: inline-block; vertical-align: top; border-bottom: none; padding-bottom: 0; }
-/* line 662, scss/_alwaysplotting.scss */
+/* line 664, scss/_alwaysplotting.scss */
 #content-inner-blog-grid #blog-grid-container article.sticky .blog-post-grid-content-inner { float: left; background: #f6f6f6; padding: 20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
-/* line 668, scss/_alwaysplotting.scss */
+/* line 670, scss/_alwaysplotting.scss */
 #content-inner-blog-grid #blog-grid-container article.blog-post:last-child { margin-bottom: 50px; }
 
 /*Content*/
-/* line 675, scss/_alwaysplotting.scss */
+/* line 677, scss/_alwaysplotting.scss */
 .blog-post-grid-content { max-width: 257px; margin-left: 45px; float: left; position: relative; }
-/* line 681, scss/_alwaysplotting.scss */
+/* line 683, scss/_alwaysplotting.scss */
 .blog-post-grid-content .blog-post-featured-media { width: 257px; margin-bottom: 30px; float: left; overflow: hidden; position: relative; }
-/* line 688, scss/_alwaysplotting.scss */
+/* line 690, scss/_alwaysplotting.scss */
 .blog-post-grid-content .blog-post-featured-media .thumb { width: 257px; margin-bottom: 0; }
-/* line 693, scss/_alwaysplotting.scss */
+/* line 695, scss/_alwaysplotting.scss */
 .blog-post-grid-content h2, .blog-post-grid-content h2 span, .blog-post-grid-content h2 a { font-size: 2.1875em; line-height: 33px; margin-bottom: 0; color: #000; display: inline-block; width: 100%; }
-/* line 701, scss/_alwaysplotting.scss */
+/* line 703, scss/_alwaysplotting.scss */
 .blog-post-grid-content .blog-post-meta { width: 100%; float: left; color: #999; margin-bottom: 10px; font-size: 0.6875em; }
 
 /*Blog layout:standard*/
-/* line 712, scss/_alwaysplotting.scss */
+/* line 714, scss/_alwaysplotting.scss */
 .content-inner-left { width: 605px; float: left; margin: 0 45px 0 0; }
 
-/* line 717, scss/_alwaysplotting.scss */
+/* line 719, scss/_alwaysplotting.scss */
 .content-inner-right { width: 605px; float: right; margin: 0 0 0 45px; }
 
-/* line 722, scss/_alwaysplotting.scss */
+/* line 724, scss/_alwaysplotting.scss */
 article.blog-post { margin-bottom: 50px; padding-bottom: 50px; overflow: hidden; border-bottom: 1px solid #e6e6e6; }
 
-/* line 728, scss/_alwaysplotting.scss */
+/* line 730, scss/_alwaysplotting.scss */
 article.blog-post:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
 
 /*Content*/
-/* line 736, scss/_alwaysplotting.scss */
+/* line 738, scss/_alwaysplotting.scss */
 .blog-post-content { width: 100%; float: left; }
-/* line 740, scss/_alwaysplotting.scss */
+/* line 742, scss/_alwaysplotting.scss */
 .blog-post-content .blog-post-featured-media { width: 605px; height: auto; margin-bottom: 20px; overflow: hidden; position: relative; }
-/* line 747, scss/_alwaysplotting.scss */
+/* line 749, scss/_alwaysplotting.scss */
 .blog-post-content .blog-post-featured-media .thumb { width: 605px; margin-bottom: 0; }
-/* line 751, scss/_alwaysplotting.scss */
+/* line 753, scss/_alwaysplotting.scss */
 .blog-post-content .blog-post-featured-media img { max-width: 100%; height: auto; }
-/* line 755, scss/_alwaysplotting.scss */
+/* line 757, scss/_alwaysplotting.scss */
 .blog-post-content .blog-post-featured-media .video, .blog-post-content .blog-post-featured-media .flexslider { margin-bottom: 0; height: 340px; }
-/* line 760, scss/_alwaysplotting.scss */
+/* line 762, scss/_alwaysplotting.scss */
 .blog-post-content .blog-post-title { margin-bottom: 5px; color: #000; float: left; width: 100%; }
-/* line 766, scss/_alwaysplotting.scss */
+/* line 768, scss/_alwaysplotting.scss */
 .blog-post-content .blog-post-title a { color: #000; }
-/* line 769, scss/_alwaysplotting.scss */
+/* line 771, scss/_alwaysplotting.scss */
 .blog-post-content .blog-post-title a a:hover { color: #ff0000; }
-/* line 774, scss/_alwaysplotting.scss */
+/* line 776, scss/_alwaysplotting.scss */
 .blog-post-content .video { margin-bottom: 30px; }
-/* line 777, scss/_alwaysplotting.scss */
+/* line 779, scss/_alwaysplotting.scss */
 .blog-post-content .video video, .blog-post-content .video iframe, .blog-post-content .video object, .blog-post-content .video embed, .blog-post-content .video div { width: 100%; height: 100% !important; max-width: 100% !important; max-height: 100% !important; }
-/* line 784, scss/_alwaysplotting.scss */
+/* line 786, scss/_alwaysplotting.scss */
 .blog-post-content p { margin-bottom: 20px; }
-/* line 787, scss/_alwaysplotting.scss */
+/* line 789, scss/_alwaysplotting.scss */
 .blog-post-content p:last-child { margin-bottom: 0; }
 
 /*Date*/
-/* line 794, scss/_alwaysplotting.scss */
+/* line 796, scss/_alwaysplotting.scss */
 .blog-post-meta-date { text-align: center; position: absolute; top: 50%; right: 0; margin-top: -46.5px; width: 48px; float: left; color: #000; background: #fff; padding: 5px; text-transform: uppercase; }
-/* line 808, scss/_alwaysplotting.scss */
+/* line 810, scss/_alwaysplotting.scss */
 .blog-post-meta-date span.month { font-size: 1.5625em; line-height: 25px; }
-/* line 812, scss/_alwaysplotting.scss */
+/* line 814, scss/_alwaysplotting.scss */
 .blog-post-meta-date span.day { font-size: 2.8125em; line-height: 34px; }
-/* line 816, scss/_alwaysplotting.scss */
+/* line 818, scss/_alwaysplotting.scss */
 .blog-post-meta-date span.year { font-size: 1.5625em; line-height: 18px; }
 
 /*Meta*/
-/* line 824, scss/_alwaysplotting.scss */
+/* line 826, scss/_alwaysplotting.scss */
 .blog-post-content .blog-post-meta { width: 100%; float: left; color: #999; margin-bottom: 15px; font-size: 0.6875em; }
-/* line 831, scss/_alwaysplotting.scss */
+/* line 833, scss/_alwaysplotting.scss */
 .blog-post-content .blog-post-meta a, .blog-post-content .blog-post-meta span { text-decoration: none; font-weight: 700; }
-/* line 835, scss/_alwaysplotting.scss */
+/* line 837, scss/_alwaysplotting.scss */
 .blog-post-content .blog-post-meta a:hover, .blog-post-content .blog-post-meta span:hover { text-decoration: underline; }
 
-/* line 840, scss/_alwaysplotting.scss */
+/* line 842, scss/_alwaysplotting.scss */
 .blog-post-read-more { margin-bottom: 0; float: left; clear: both; }
 
 /*Sticky post*/
-/* line 848, scss/_alwaysplotting.scss */
+/* line 850, scss/_alwaysplotting.scss */
 article.blog-post.sticky { padding-bottom: 0; border-bottom: none; }
 
-/* line 852, scss/_alwaysplotting.scss */
+/* line 854, scss/_alwaysplotting.scss */
 .sticky .blog-post-content { background: #f6f6f6; padding: 25px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
-/* line 857, scss/_alwaysplotting.scss */
+/* line 859, scss/_alwaysplotting.scss */
 .sticky .blog-post-content .blog-post-featured-media, .sticky .blog-post-content .blog-post-featured-media .thumb { width: 550px; }
-/* line 860, scss/_alwaysplotting.scss */
+/* line 862, scss/_alwaysplotting.scss */
 .sticky .blog-post-content .blog-post-featured-media .video, .sticky .blog-post-content .blog-post-featured-media .flexslider { height: 309px; }
 
 /*Comments*/
-/* line 867, scss/_alwaysplotting.scss */
+/* line 869, scss/_alwaysplotting.scss */
 section#comments { margin-bottom: 0; overflow: hidden; /*Comment form*/ }
-/* line 871, scss/_alwaysplotting.scss */
+/* line 873, scss/_alwaysplotting.scss */
 section#comments h2#comments-title, section#comments h3#reply-title { font-size: 35px; line-height: 30px; margin-bottom: 50px; color: #000; }
-/* line 877, scss/_alwaysplotting.scss */
+/* line 879, scss/_alwaysplotting.scss */
 section#comments h3#reply-title small { font-size: 11px; text-transform: none; }
-/* line 881, scss/_alwaysplotting.scss */
+/* line 883, scss/_alwaysplotting.scss */
 section#comments ol.comment-list { float: left; list-style: none; margin: 0; width: 100%; /*Comment styling*/ /*Margins-padding-borders*/ }
-/* line 888, scss/_alwaysplotting.scss */
+/* line 890, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.comment { float: left; width: 100%; border-bottom: 1px solid #e2e2e2; padding-bottom: 30px; margin-bottom: 30px; }
-/* line 895, scss/_alwaysplotting.scss */
+/* line 897, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.comment:last-child { padding-bottom: 30px; margin-bottom: 50px; }
-/* line 899, scss/_alwaysplotting.scss */
+/* line 901, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.comment p { /*margin-bottom:0;*/ }
-/* line 902, scss/_alwaysplotting.scss */
+/* line 904, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.comment .commentary { padding-left: 100px; }
-/* line 905, scss/_alwaysplotting.scss */
+/* line 907, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.comment .commentary .comment-author { font: 20px/20px BebasNeueRegular,Arial,sans-serif; font-weight: 700; margin-bottom: 2px; color: #999; text-transform: uppercase; }
-/* line 912, scss/_alwaysplotting.scss */
+/* line 914, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.comment .commentary .comment-author span { font-family: 'BebasNeueRegular',Arial,sans-serif; font-weight: 400; }
-/* line 917, scss/_alwaysplotting.scss */
+/* line 919, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.comment .commentary .comment-meta { width: 100%; float: left; color: #999; margin-bottom: 20px; font-size: 11px; }
-/* line 924, scss/_alwaysplotting.scss */
+/* line 926, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.comment .commentary .comment-meta a { color: #666; font-weight: 400; }
-/* line 928, scss/_alwaysplotting.scss */
+/* line 930, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.comment .commentary .comment-meta a:hover { text-decoration: underline; }
-/* line 935, scss/_alwaysplotting.scss */
+/* line 937, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.comment .comment-avatar { position: relative; width: 60px; height: 60px; position: relative; overflow: hidden; border: 3px solid #000; float: left; overflow: hidden; }
-/* line 945, scss/_alwaysplotting.scss */
+/* line 947, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.comment .comment-avatar img { position: relative; max-width: 100%; margin: 0 auto; -ms-interpolation-mode: bicubic; vertical-align: baseline; }
-/* line 956, scss/_alwaysplotting.scss */
+/* line 958, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.pingback { float: left; width: 100%; border-bottom: 1px solid #e2e2e2; padding-bottom: 30px; margin-bottom: 30px; }
-/* line 963, scss/_alwaysplotting.scss */
+/* line 965, scss/_alwaysplotting.scss */
 section#comments ol.comment-list li.pingback:last-child { padding-bottom: 30px; margin-bottom: 50px; }
-/* line 968, scss/_alwaysplotting.scss */
+/* line 970, scss/_alwaysplotting.scss */
 section#comments ol.comment-list ul.children { float: left; margin: 30px 0 0 100px; padding-top: 30px; list-style: none; border-top: 1px solid #e2e2e2; }
-/* line 975, scss/_alwaysplotting.scss */
+/* line 977, scss/_alwaysplotting.scss */
 section#comments ol.comment-list ul.children li { margin-bottom: 30px; padding: 0 0 30px; width: 505px; }
-/* line 980, scss/_alwaysplotting.scss */
+/* line 982, scss/_alwaysplotting.scss */
 section#comments ol.comment-list ul.children li:last-child { margin: 0; padding: 0; border-bottom: 0; }
-/* line 989, scss/_alwaysplotting.scss */
+/* line 991, scss/_alwaysplotting.scss */
 section#comments #respond { float: left; width: 100%; }
 
-/* line 995, scss/_alwaysplotting.scss */
+/* line 997, scss/_alwaysplotting.scss */
 #commentform { overflow: hidden; }
-/* line 998, scss/_alwaysplotting.scss */
+/* line 1000, scss/_alwaysplotting.scss */
 #commentform ul, #commentform ul li { margin-bottom: 0; }
-/* line 1001, scss/_alwaysplotting.scss */
+/* line 1003, scss/_alwaysplotting.scss */
 #commentform .form-submit #submit { float: left; font: 12px Arial,Helvetica,sans-serif; font-weight: 400; color: white !important; background: #e70000; text-decoration: none; text-transform: uppercase; padding: 10px 24px; border: 0; cursor: pointer; outline: 0; margin: 0; -webkit-appearance: none; border-bottom: 0 !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; text-shadow: none; }
 
 /*Post navigation*/
-/* line 1023, scss/_alwaysplotting.scss */
+/* line 1025, scss/_alwaysplotting.scss */
 .blog-post-navigation { width: 100%; margin-bottom: 50px; }
-/* line 1027, scss/_alwaysplotting.scss */
+/* line 1029, scss/_alwaysplotting.scss */
 .blog-post-navigation #previous-post { float: left; }
-/* line 1030, scss/_alwaysplotting.scss */
+/* line 1032, scss/_alwaysplotting.scss */
 .blog-post-navigation #next-post { float: right; }
-/* line 1033, scss/_alwaysplotting.scss */
+/* line 1035, scss/_alwaysplotting.scss */
 .blog-post-navigation #previous-post a, .blog-post-navigation #next-post a { text-decoration: none; }
-/* line 1036, scss/_alwaysplotting.scss */
+/* line 1038, scss/_alwaysplotting.scss */
 .blog-post-navigation #previous-post a:hover, .blog-post-navigation #next-post a:hover { text-decoration: underline; }
 
 /*Pagination*/
-/* line 1043, scss/_alwaysplotting.scss */
+/* line 1045, scss/_alwaysplotting.scss */
 #content-inner-blog-grid .pagination { float: left; width: 100%; margin-bottom: 50px; padding-top: 50px; border-top: 1px solid #eee; }
 
-/* line 1050, scss/_alwaysplotting.scss */
+/* line 1052, scss/_alwaysplotting.scss */
 .pagination { float: left; width: 100%; }
-/* line 1054, scss/_alwaysplotting.scss */
+/* line 1056, scss/_alwaysplotting.scss */
 .pagination ul { list-style: none; margin: 0; }
-/* line 1058, scss/_alwaysplotting.scss */
+/* line 1060, scss/_alwaysplotting.scss */
 .pagination ul li { float: left; margin-right: 5px; }
-/* line 1062, scss/_alwaysplotting.scss */
+/* line 1064, scss/_alwaysplotting.scss */
 .pagination ul li a { width: 20px; height: 20px; float: left; text-align: center; line-height: 22px; border: 1px solid #e2e2e2; color: #666; }
-/* line 1071, scss/_alwaysplotting.scss */
+/* line 1073, scss/_alwaysplotting.scss */
 .pagination ul li a:hover { border: 1px solid #e70000; background: #e70000; color: #fff; }
-/* line 1076, scss/_alwaysplotting.scss */
+/* line 1078, scss/_alwaysplotting.scss */
 .pagination ul li a.active { background: #000; border: 1px solid #000; color: #fff; }
-/* line 1081, scss/_alwaysplotting.scss */
+/* line 1083, scss/_alwaysplotting.scss */
 .pagination ul li a.active:hover { background: #666; border: 1px solid #666; }
 
 /*Sidebar*/
-/* line 1093, scss/_alwaysplotting.scss */
+/* line 1095, scss/_alwaysplotting.scss */
 aside.sidebar { width: 220px; float: left; overflow: hidden; /*Widget: widget_recent_entries,widget_archive,widget_categories,widget_meta,widget_pages*/ }
-/* line 1099, scss/_alwaysplotting.scss */
+/* line 1101, scss/_alwaysplotting.scss */
 aside.sidebar ul { float: left; width: 100%; list-style: none; margin: 0; padding: 0; }
-/* line 1106, scss/_alwaysplotting.scss */
+/* line 1108, scss/_alwaysplotting.scss */
 aside.sidebar ul li { width: 100%; float: left; margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid #e6e6e6; }
-/* line 1113, scss/_alwaysplotting.scss */
+/* line 1115, scss/_alwaysplotting.scss */
 aside.sidebar ul li:last-child { margin: 0; padding: 0; border: none !important; }
-/* line 1118, scss/_alwaysplotting.scss */
+/* line 1120, scss/_alwaysplotting.scss */
 aside.sidebar ul li h4.widget-title { font-size: 20px; line-height: 20px; margin-bottom: 20px; }
-/* line 1123, scss/_alwaysplotting.scss */
+/* line 1125, scss/_alwaysplotting.scss */
 aside.sidebar ul li h4.widget-title span { font-size: 20px; line-height: 20px; }
-/* line 1127, scss/_alwaysplotting.scss */
+/* line 1129, scss/_alwaysplotting.scss */
 aside.sidebar ul li h4.widget-title, aside.sidebar ul li h4.widget-title span { color: #999; }
-/* line 1131, scss/_alwaysplotting.scss */
+/* line 1133, scss/_alwaysplotting.scss */
 aside.sidebar ul li ul { list-style: none; }
-/* line 1134, scss/_alwaysplotting.scss */
+/* line 1136, scss/_alwaysplotting.scss */
 aside.sidebar ul li ul li { margin-bottom: 5px; padding: 0; border: none !important; }
-/* line 1139, scss/_alwaysplotting.scss */
+/* line 1141, scss/_alwaysplotting.scss */
 aside.sidebar ul li ul li:last-child { margin: 0 !important; }
-/* line 1142, scss/_alwaysplotting.scss */
+/* line 1144, scss/_alwaysplotting.scss */
 aside.sidebar ul li ul li a { color: #333; text-decoration: none; font-weight: 400; width: 100%; }
-/* line 1148, scss/_alwaysplotting.scss */
+/* line 1150, scss/_alwaysplotting.scss */
 aside.sidebar ul li ul li a:hover { color: #e70000; text-decoration: underline; }
-/* line 1153, scss/_alwaysplotting.scss */
+/* line 1155, scss/_alwaysplotting.scss */
 aside.sidebar ul li ul li p.date { color: #999; font-size: 11px; text-transform: uppercase; }
-/* line 1162, scss/_alwaysplotting.scss */
+/* line 1164, scss/_alwaysplotting.scss */
 aside.sidebar img { max-width: 100%; height: auto; }
-/* line 1166, scss/_alwaysplotting.scss */
+/* line 1168, scss/_alwaysplotting.scss */
 aside.sidebar select { max-width: 100%; }
 
 /*Widget:text*/
-/* line 1172, scss/_alwaysplotting.scss */
-.widget_text { /*Widget: social*/ }
 /* line 1174, scss/_alwaysplotting.scss */
+.widget_text { /*Widget: social*/ }
+/* line 1176, scss/_alwaysplotting.scss */
 .widget_text p:last-child { margin-bottom: 0; }
-/* line 1179, scss/_alwaysplotting.scss */
+/* line 1181, scss/_alwaysplotting.scss */
 .widget_text ul.socialSmall { float: none; list-style: none; margin: 0; overflow: hidden; display: table; }
-/* line 1186, scss/_alwaysplotting.scss */
+/* line 1188, scss/_alwaysplotting.scss */
 .widget_text ul.socialSmall li { display: inline; width: auto; }
-/* line 1190, scss/_alwaysplotting.scss */
+/* line 1192, scss/_alwaysplotting.scss */
 .widget_text ul.socialSmall li a { width: 32px; height: 32px; margin-right: 5px; }
-/* line 1195, scss/_alwaysplotting.scss */
+/* line 1197, scss/_alwaysplotting.scss */
 .widget_text ul.socialSmall li:last-child a { margin-right: 0; }
 
 /*Widget: rss*/
-/* line 1203, scss/_alwaysplotting.scss */
+/* line 1205, scss/_alwaysplotting.scss */
 aside.sidebar ul li.widget_rss ul li { margin-bottom: 15px; }
 
-/* line 1208, scss/_alwaysplotting.scss */
+/* line 1210, scss/_alwaysplotting.scss */
 .widget_rss .rsswidget { font-size: 14px; }
-/* line 1211, scss/_alwaysplotting.scss */
+/* line 1213, scss/_alwaysplotting.scss */
 .widget_rss .rss-date { display: block; margin-bottom: 5px; font-style: italic; }
 
 /*Widget:search*/
-/* line 1221, scss/_alwaysplotting.scss */
+/* line 1223, scss/_alwaysplotting.scss */
 .widget_search #searchform input#s { width: 100%; height: 45px; line-height: 45px; padding: 0 20px; margin-bottom: 20px; background-color: #fff; color: #999; border: 1px solid #e6e6e6; color: #999; font: 13px/18px Arial,Helvetica,sans-serif; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
-/* line 1234, scss/_alwaysplotting.scss */
+/* line 1236, scss/_alwaysplotting.scss */
 .widget_search #searchform input#s:hover { background-color: #fff; color: #999; border: 1px solid #e6e6e6; }
-/* line 1239, scss/_alwaysplotting.scss */
+/* line 1241, scss/_alwaysplotting.scss */
 .widget_search #searchform input#s:focus { background-color: #fff; color: #999; border: 1px solid #ddd; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); }
 
-/* line 1247, scss/_alwaysplotting.scss */
+/* line 1249, scss/_alwaysplotting.scss */
 #searchsubmit { margin-bottom: 0; }
 
 /*Widget:tag cloud*/
-/* line 1252, scss/_alwaysplotting.scss */
+/* line 1254, scss/_alwaysplotting.scss */
 .widget_tag_cloud a { display: block; float: left; font-size: 12px !important; margin: 0 10px 10px 0; padding: 3px 8px; background: #f6f6f6; color: #999; }
-/* line 1261, scss/_alwaysplotting.scss */
+/* line 1263, scss/_alwaysplotting.scss */
 .widget_tag_cloud a:hover { background: #000; color: #fff; }
 
 /*Widget:calendar*/
-/* line 1268, scss/_alwaysplotting.scss */
+/* line 1270, scss/_alwaysplotting.scss */
 #wp-calendar { border-spacing: 3px; margin-bottom: 0; }
 
-/* line 1272, scss/_alwaysplotting.scss */
+/* line 1274, scss/_alwaysplotting.scss */
 .widget_calendar { float: left; width: 100%; }
-/* line 1276, scss/_alwaysplotting.scss */
+/* line 1278, scss/_alwaysplotting.scss */
 .widget_calendar #wp-calendar { width: 100%; }
-/* line 1279, scss/_alwaysplotting.scss */
+/* line 1281, scss/_alwaysplotting.scss */
 .widget_calendar #wp-calendar caption { text-align: right; font-size: 12px; margin-top: 10px; margin-bottom: 15px; font-weight: 700; }
-/* line 1286, scss/_alwaysplotting.scss */
+/* line 1288, scss/_alwaysplotting.scss */
 .widget_calendar #wp-calendar thead { font-size: 10px; }
-/* line 1289, scss/_alwaysplotting.scss */
+/* line 1291, scss/_alwaysplotting.scss */
 .widget_calendar #wp-calendar thead th { padding-bottom: 10px; }
-/* line 1293, scss/_alwaysplotting.scss */
+/* line 1295, scss/_alwaysplotting.scss */
 .widget_calendar #wp-calendar tbody { color: #999; }
-/* line 1296, scss/_alwaysplotting.scss */
+/* line 1298, scss/_alwaysplotting.scss */
 .widget_calendar #wp-calendar tbody td { background: #f6f6f6; text-align: center; line-height: 30px; }
-/* line 1301, scss/_alwaysplotting.scss */
+/* line 1303, scss/_alwaysplotting.scss */
 .widget_calendar #wp-calendar tbody td:hover { background: #000; color: #fff; }
-/* line 1305, scss/_alwaysplotting.scss */
+/* line 1307, scss/_alwaysplotting.scss */
 .widget_calendar #wp-calendar tbody td.pad { background: none; }
-/* line 1308, scss/_alwaysplotting.scss */
+/* line 1310, scss/_alwaysplotting.scss */
 .widget_calendar #wp-calendar tbody td.pad:hover { background: none; }
-/* line 1315, scss/_alwaysplotting.scss */
+/* line 1317, scss/_alwaysplotting.scss */
 .widget_calendar #wp-calendar tfoot #next { font-size: 10px; text-transform: uppercase; text-align: right; }
-/* line 1320, scss/_alwaysplotting.scss */
+/* line 1322, scss/_alwaysplotting.scss */
 .widget_calendar #wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
-/* line 1326, scss/_alwaysplotting.scss */
+/* line 1328, scss/_alwaysplotting.scss */
 .widget_calendar #wp-calendar a { color: #ff0000; text-decoration: none; line-height: 30px; display: block; }
 
 /*Widget:tag menu*/
-/* line 1337, scss/_alwaysplotting.scss */
+/* line 1339, scss/_alwaysplotting.scss */
 .widget_nav_menu .menu li ul.sub-menu { display: block !important; padding-left: 15px; margin: 10px 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
 
-/* line 1345, scss/_alwaysplotting.scss */
+/* line 1347, scss/_alwaysplotting.scss */
 .pagination .nav-previous { float: left; }
-/* line 1348, scss/_alwaysplotting.scss */
+/* line 1350, scss/_alwaysplotting.scss */
 .pagination .nav-next { float: right; }
 
 /*Contact
 ----------------------------*/
-/* line 1355, scss/_alwaysplotting.scss */
+/* line 1357, scss/_alwaysplotting.scss */
 .contactForm { margin-bottom: 0; overflow: hidden; }
 
-/* line 1359, scss/_alwaysplotting.scss */
+/* line 1361, scss/_alwaysplotting.scss */
 .contact p { font: 15px/18px Arial,Helvetica,sans-serif; text-align: center; }
 
-/* line 1363, scss/_alwaysplotting.scss */
+/* line 1365, scss/_alwaysplotting.scss */
 .loading-animation { float: left; width: 24px; height: 24px; background: url(./images/ui/ajax-loader-white.gif) no-repeat center center; }
 
-/* line 1369, scss/_alwaysplotting.scss */
+/* line 1371, scss/_alwaysplotting.scss */
 #map_canvas { margin-bottom: 50px; }
 
-/* line 1372, scss/_alwaysplotting.scss */
+/* line 1374, scss/_alwaysplotting.scss */
 .udt_honey { display: none; }
 
 /*Form elements
 ----------------------------*/
-/* line 1378, scss/_alwaysplotting.scss */
+/* line 1380, scss/_alwaysplotting.scss */
 .form p { margin-bottom: 0; }
 
-/* line 1381, scss/_alwaysplotting.scss */
+/* line 1383, scss/_alwaysplotting.scss */
 .commentform { margin-bottom: 50px; overflow: hidden; }
 
-/* line 1385, scss/_alwaysplotting.scss */
+/* line 1387, scss/_alwaysplotting.scss */
 .text-field { width: 300px; height: 45px; line-height: 45px; padding: 0 20px; margin-bottom: 20px; }
 
-/* line 1392, scss/_alwaysplotting.scss */
+/* line 1394, scss/_alwaysplotting.scss */
 .text-field, textarea { background-color: #fff; color: #999; border: 1px solid #e6e6e6; color: #999; font: 13px/18px Arial,Helvetica,sans-serif; }
 
-/* line 1399, scss/_alwaysplotting.scss */
+/* line 1401, scss/_alwaysplotting.scss */
 .text-field:hover, textarea:hover { background-color: #fff; color: #999; border: 1px solid #e6e6e6; }
 
-/* line 1404, scss/_alwaysplotting.scss */
+/* line 1406, scss/_alwaysplotting.scss */
 .text-field:focus, textarea:focus { background-color: #fff; color: #999; border: 1px solid #ddd; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); }
 
-/* line 1410, scss/_alwaysplotting.scss */
+/* line 1412, scss/_alwaysplotting.scss */
 textarea { width: 560px; height: 200px; padding: 20px; margin-bottom: 20px; overflow: auto; resize: none; }
 
-/* line 1418, scss/_alwaysplotting.scss */
+/* line 1420, scss/_alwaysplotting.scss */
 .text-field, textarea { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
 
-/* line 1421, scss/_alwaysplotting.scss */
+/* line 1423, scss/_alwaysplotting.scss */
 .submitForm { margin-bottom: 0; }
 
-/* line 1424, scss/_alwaysplotting.scss */
+/* line 1426, scss/_alwaysplotting.scss */
 #msg { float: left; min-height: 24px; }
-/* line 1428, scss/_alwaysplotting.scss */
+/* line 1430, scss/_alwaysplotting.scss */
 #msg #msg img { float: left; display: block; }
 
-/* line 1433, scss/_alwaysplotting.scss */
+/* line 1435, scss/_alwaysplotting.scss */
 .errorOutline { border: 1px solid red !important; }
 
-/* line 1436, scss/_alwaysplotting.scss */
+/* line 1438, scss/_alwaysplotting.scss */
 .errorMsg { color: red !important; }
 
 /*----------------------------
@@ -827,698 +827,698 @@ iii.-- Footer
 -----------------------------*/
 /*Wrappers
 ----------------------------*/
-/* line 1448, scss/_alwaysplotting.scss */
+/* line 1450, scss/_alwaysplotting.scss */
 #footer-wrapper { width: 100%; position: relative; bottom: 0; }
-/* line 1453, scss/_alwaysplotting.scss */
+/* line 1455, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-top { max-width: 870px; margin: auto; padding: 50px 0 0; margin-bottom: 0; border-top: 1px solid #ddd; }
-/* line 1460, scss/_alwaysplotting.scss */
+/* line 1462, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-top footer .column-footer-widget { margin-bottom: 0 !important; }
-/* line 1463, scss/_alwaysplotting.scss */
+/* line 1465, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-top footer .column-footer-widget h4.widget-title { font-size: 25px; line-height: 27px; margin-bottom: 20px; color: #888; }
-/* line 1469, scss/_alwaysplotting.scss */
+/* line 1471, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-top footer .column-footer-widget h4.widget-title span { font-size: 25px; line-height: 27px; }
-/* line 1474, scss/_alwaysplotting.scss */
+/* line 1476, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-top footer .column-footer-widget p { margin-bottom: 20px; }
-/* line 1477, scss/_alwaysplotting.scss */
+/* line 1479, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-top footer .column-footer-widget p:last-child { margin-bottom: 0; }
-/* line 1483, scss/_alwaysplotting.scss */
+/* line 1485, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-bottom { width: 100%; }
-/* line 1486, scss/_alwaysplotting.scss */
+/* line 1488, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-bottom #footer-bottom-inner-wrapper { width: 870px; margin: auto; height: 120px; background: none; text-align: center; display: table; border-top: 1px solid #ddd; padding-top: 20px; }
-/* line 1496, scss/_alwaysplotting.scss */
+/* line 1498, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-bottom #footer-bottom-inner-wrapper footer { display: table-cell; vertical-align: middle; width: 100%; text-align: center; padding: 20px 0; }
-/* line 1503, scss/_alwaysplotting.scss */
+/* line 1505, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-bottom #footer-bottom-inner-wrapper footer p.footer-copyright { margin: 8px 0; font-size: 0.625em; font-family: "brandon-grotesque-1", "brandon-grotesque-2", Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.06em; color: #888; }
 
 /*Widgets: widget_recent_entries,widget_archive,widget_categories,widget_meta,widget_pages*/
-/* line 1518, scss/_alwaysplotting.scss */
+/* line 1520, scss/_alwaysplotting.scss */
 .footer-widget { width: 100%; margin: 0; }
-/* line 1522, scss/_alwaysplotting.scss */
+/* line 1524, scss/_alwaysplotting.scss */
 .footer-widget li { margin: 0 0 50px; }
-/* line 1525, scss/_alwaysplotting.scss */
+/* line 1527, scss/_alwaysplotting.scss */
 .footer-widget li li ul { list-style: none; margin: 0; }
-/* line 1529, scss/_alwaysplotting.scss */
+/* line 1531, scss/_alwaysplotting.scss */
 .footer-widget li li ul li { margin-bottom: 5px; padding: 0; border: none !important; margin-bottom: 5px; padding: 0; border: none; }
-/* line 1537, scss/_alwaysplotting.scss */
+/* line 1539, scss/_alwaysplotting.scss */
 .footer-widget li li ul li:last-child { margin: 0 !important; }
-/* line 1541, scss/_alwaysplotting.scss */
+/* line 1543, scss/_alwaysplotting.scss */
 .footer-widget li li ul li a { color: #333; text-decoration: none; font-weight: 400; width: 100%; }
-/* line 1547, scss/_alwaysplotting.scss */
+/* line 1549, scss/_alwaysplotting.scss */
 .footer-widget li li ul li a:hover { color: #e70000; text-decoration: underline; }
-/* line 1555, scss/_alwaysplotting.scss */
+/* line 1557, scss/_alwaysplotting.scss */
 .footer-widget p.date { color: #999; font-size: 11px; text-transform: uppercase; }
 
 /*Back to top*/
-/* line 1564, scss/_alwaysplotting.scss */
+/* line 1566, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-bottom footer .back-to-top { display: inline-block; width: 22px; height: 22px; text-indent: -9999px; background: url(./images/ui/to-top.png); margin-top: 10px; }
 
 /*Social*/
-/* line 1575, scss/_alwaysplotting.scss */
+/* line 1577, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-bottom ul.connect { float: none; list-style: none; margin: 0 auto; overflow: hidden; display: table; line-height: 23px; text-align: center; }
-/* line 1584, scss/_alwaysplotting.scss */
+/* line 1586, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-bottom ul.connect li { display: inline-block; }
-/* line 1587, scss/_alwaysplotting.scss */
+/* line 1589, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-bottom ul.connect li a { background-repeat: no-repeat; float: left; height: 22px; float: left; color: #888; text-transform: uppercase; font-size: 11px; margin-right: 15px; opacity: .8; -webkit-transition: opacity 0.25s ease-in-out; -moz-transition: opacity 0.25s ease-in-out; -ms-transition: opacity 0.25s ease-in-out; -o-transition: opacity 0.25s ease-in-out; transition: opacity 0.25s ease-in-out; }
-/* line 1599, scss/_alwaysplotting.scss */
+/* line 1601, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-bottom ul.connect li a:hover { float: left; color: #333; opacity: .3; }
-/* line 1605, scss/_alwaysplotting.scss */
+/* line 1607, scss/_alwaysplotting.scss */
 #footer-wrapper #footer-bottom ul.connect li:last-child a { margin-right: 0; }
 
 /* ICONS
 ----------------------------*/
-/* line 1616, scss/_alwaysplotting.scss */
+/* line 1618, scss/_alwaysplotting.scss */
 ul.connect li a.pinterest { background-image: url(./images/ui_shortcodes/social/pinterest-small.png); padding-left: 24px; }
-/* line 1620, scss/_alwaysplotting.scss */
+/* line 1622, scss/_alwaysplotting.scss */
 ul.connect li a.twitter { background-image: url(./images/ui_shortcodes/social/twitter-small.png); padding-left: 24px; }
-/* line 1624, scss/_alwaysplotting.scss */
+/* line 1626, scss/_alwaysplotting.scss */
 ul.connect li a.facebook { background-image: url(./images/ui_shortcodes/social/facebook-small.png); padding-left: 20px; }
-/* line 1628, scss/_alwaysplotting.scss */
+/* line 1630, scss/_alwaysplotting.scss */
 ul.connect li a.skype { background-image: url(./images/ui_shortcodes/social/skype-small.png); padding-left: 24px; }
-/* line 1632, scss/_alwaysplotting.scss */
+/* line 1634, scss/_alwaysplotting.scss */
 ul.connect li a.forrst { background-image: url(./images/ui_shortcodes/social/forrst-small.png); padding-left: 23px; }
-/* line 1636, scss/_alwaysplotting.scss */
+/* line 1638, scss/_alwaysplotting.scss */
 ul.connect li a.googleplus { background-image: url(./images/ui_shortcodes/social/googleplus-small.png); padding-left: 26px; }
-/* line 1640, scss/_alwaysplotting.scss */
+/* line 1642, scss/_alwaysplotting.scss */
 ul.connect li a.flickr { background-image: url(./images/ui_shortcodes/social/flickr-small.png); padding-left: 27px; }
-/* line 1644, scss/_alwaysplotting.scss */
+/* line 1646, scss/_alwaysplotting.scss */
 ul.connect li a.myspace { background-image: url(./images/ui_shortcodes/social/myspace-small.png); padding-left: 27px; }
-/* line 1648, scss/_alwaysplotting.scss */
+/* line 1650, scss/_alwaysplotting.scss */
 ul.connect li a.vimeo { background-image: url(./images/ui_shortcodes/social/vimeo-small.png); padding-left: 26px; }
-/* line 1652, scss/_alwaysplotting.scss */
+/* line 1654, scss/_alwaysplotting.scss */
 ul.connect li a.dribbble { background-image: url(./images/ui_shortcodes/social/dribbble-small.png); padding-left: 25px; }
-/* line 1656, scss/_alwaysplotting.scss */
+/* line 1658, scss/_alwaysplotting.scss */
 ul.connect li a.linkedin { background-image: url(./images/ui_shortcodes/social/linkedin-small.png); padding-left: 26px; }
-/* line 1660, scss/_alwaysplotting.scss */
+/* line 1662, scss/_alwaysplotting.scss */
 ul.connect li a.youtube { background-image: url(./images/ui_shortcodes/social/youtube-small.png); padding-left: 27px; }
-/* line 1664, scss/_alwaysplotting.scss */
+/* line 1666, scss/_alwaysplotting.scss */
 ul.connect li a.vine { background-image: url(./images/ui_shortcodes/social/vine-small.png); padding-left: 25px; }
-/* line 1668, scss/_alwaysplotting.scss */
+/* line 1670, scss/_alwaysplotting.scss */
 ul.connect li a.spotify { background-image: url(./images/ui_shortcodes/social/spotify-small.png); padding-left: 25px; }
-/* line 1672, scss/_alwaysplotting.scss */
+/* line 1674, scss/_alwaysplotting.scss */
 ul.connect li a.rss { background-image: url(./images/ui_shortcodes/social/rss-small.png); padding-left: 27px; }
-/* line 1676, scss/_alwaysplotting.scss */
+/* line 1678, scss/_alwaysplotting.scss */
 ul.connect li a.instagram { background-image: url(./images/ui_shortcodes/social/instagram-small.png); padding-left: 26px; }
-/* line 1680, scss/_alwaysplotting.scss */
+/* line 1682, scss/_alwaysplotting.scss */
 ul.connect li a.github { background-image: url(./images/ui_shortcodes/social/github-small.png); padding-left: 27px; }
-/* line 1684, scss/_alwaysplotting.scss */
+/* line 1686, scss/_alwaysplotting.scss */
 ul.connect li a.behance { background-image: url(./images/ui_shortcodes/social/behance-small.png); padding-left: 27px; }
-/* line 1688, scss/_alwaysplotting.scss */
+/* line 1690, scss/_alwaysplotting.scss */
 ul.connect li a.deviantart { background-image: url(./images/ui_shortcodes/social/deviantart-small.png); padding-left: 28px; }
-/* line 1692, scss/_alwaysplotting.scss */
+/* line 1694, scss/_alwaysplotting.scss */
 ul.connect li a.soundcloud { background-image: url(./images/ui_shortcodes/social/soundcloud-small.png); padding-left: 27px; }
-/* line 1696, scss/_alwaysplotting.scss */
+/* line 1698, scss/_alwaysplotting.scss */
 ul.connect li a.tumblr { background-image: url(./images/ui_shortcodes/social/tumblr-small.png); padding-left: 23px; }
-/* line 1700, scss/_alwaysplotting.scss */
+/* line 1702, scss/_alwaysplotting.scss */
 ul.connect li a.android { background-image: url(./images/ui_shortcodes/social/android-small.png); padding-left: 27px; }
-/* line 1704, scss/_alwaysplotting.scss */
+/* line 1706, scss/_alwaysplotting.scss */
 ul.connect li a.apple { background-image: url(./images/ui_shortcodes/social/apple-small.png); padding-left: 27px; }
-/* line 1708, scss/_alwaysplotting.scss */
+/* line 1710, scss/_alwaysplotting.scss */
 ul.connect li a.windows { background-image: url(./images/ui_shortcodes/social/windows-small.png); padding-left: 27px; }
 
-/* line 1714, scss/_alwaysplotting.scss */
+/* line 1716, scss/_alwaysplotting.scss */
 ul.connect.white li a.pinterest { background-image: url(./images/ui_shortcodes/social/pinterest-small-white.png); padding-left: 24px; }
-/* line 1718, scss/_alwaysplotting.scss */
+/* line 1720, scss/_alwaysplotting.scss */
 ul.connect.white li a.twitter { background-image: url(./images/ui_shortcodes/social/twitter-small-white.png); padding-left: 24px; }
-/* line 1722, scss/_alwaysplotting.scss */
+/* line 1724, scss/_alwaysplotting.scss */
 ul.connect.white li a.facebook { background-image: url(./images/ui_shortcodes/social/facebook-small-white.png); padding-left: 20px; }
-/* line 1726, scss/_alwaysplotting.scss */
+/* line 1728, scss/_alwaysplotting.scss */
 ul.connect.white li a.skype { background-image: url(./images/ui_shortcodes/social/skype-small-white.png); padding-left: 24px; }
-/* line 1730, scss/_alwaysplotting.scss */
+/* line 1732, scss/_alwaysplotting.scss */
 ul.connect.white li a.forrst { background-image: url(./images/ui_shortcodes/social/forrst-small-white.png); padding-left: 23px; }
-/* line 1734, scss/_alwaysplotting.scss */
+/* line 1736, scss/_alwaysplotting.scss */
 ul.connect.white li a.googleplus { background-image: url(./images/ui_shortcodes/social/googleplus-small-white.png); padding-left: 26px; }
-/* line 1738, scss/_alwaysplotting.scss */
+/* line 1740, scss/_alwaysplotting.scss */
 ul.connect.white li a.flickr { background-image: url(./images/ui_shortcodes/social/flickr-small-white.png); padding-left: 27px; }
-/* line 1742, scss/_alwaysplotting.scss */
+/* line 1744, scss/_alwaysplotting.scss */
 ul.connect.white li a.myspace { background-image: url(./images/ui_shortcodes/social/myspace-small-white.png); padding-left: 27px; }
-/* line 1746, scss/_alwaysplotting.scss */
+/* line 1748, scss/_alwaysplotting.scss */
 ul.connect.white li a.vimeo { background-image: url(./images/ui_shortcodes/social/vimeo-small-white.png); padding-left: 26px; }
-/* line 1750, scss/_alwaysplotting.scss */
+/* line 1752, scss/_alwaysplotting.scss */
 ul.connect.white li a.dribbble { background-image: url(./images/ui_shortcodes/social/dribbble-small-white.png); padding-left: 25px; }
-/* line 1754, scss/_alwaysplotting.scss */
+/* line 1756, scss/_alwaysplotting.scss */
 ul.connect.white li a.linkedin { background-image: url(./images/ui_shortcodes/social/linkedin-small-white.png); padding-left: 26px; }
-/* line 1758, scss/_alwaysplotting.scss */
+/* line 1760, scss/_alwaysplotting.scss */
 ul.connect.white li a.youtube { background-image: url(./images/ui_shortcodes/social/youtube-small-white.png); padding-left: 27px; }
-/* line 1762, scss/_alwaysplotting.scss */
+/* line 1764, scss/_alwaysplotting.scss */
 ul.connect.white li a.vine { background-image: url(./images/ui_shortcodes/social/vine-small-white.png); padding-left: 25px; }
-/* line 1766, scss/_alwaysplotting.scss */
+/* line 1768, scss/_alwaysplotting.scss */
 ul.connect.white li a.spotify { background-image: url(./images/ui_shortcodes/social/spotify-small-white.png); padding-left: 25px; }
-/* line 1770, scss/_alwaysplotting.scss */
+/* line 1772, scss/_alwaysplotting.scss */
 ul.connect.white li a.rss { background-image: url(./images/ui_shortcodes/social/rss-small-white.png); padding-left: 27px; }
-/* line 1774, scss/_alwaysplotting.scss */
+/* line 1776, scss/_alwaysplotting.scss */
 ul.connect.white li a.instagram { background-image: url(./images/ui_shortcodes/social/instagram-small-white.png); padding-left: 26px; }
-/* line 1778, scss/_alwaysplotting.scss */
+/* line 1780, scss/_alwaysplotting.scss */
 ul.connect.white li a.github { background-image: url(./images/ui_shortcodes/social/github-small-white.png); padding-left: 27px; }
-/* line 1782, scss/_alwaysplotting.scss */
+/* line 1784, scss/_alwaysplotting.scss */
 ul.connect.white li a.behance { background-image: url(./images/ui_shortcodes/social/behance-small-white.png); padding-left: 27px; }
-/* line 1786, scss/_alwaysplotting.scss */
+/* line 1788, scss/_alwaysplotting.scss */
 ul.connect.white li a.deviantart { background-image: url(./images/ui_shortcodes/social/deviantart-small-white.png); padding-left: 28px; }
-/* line 1790, scss/_alwaysplotting.scss */
+/* line 1792, scss/_alwaysplotting.scss */
 ul.connect.white li a.soundcloud { background-image: url(./images/ui_shortcodes/social/soundcloud-small-white.png); padding-left: 27px; }
-/* line 1794, scss/_alwaysplotting.scss */
+/* line 1796, scss/_alwaysplotting.scss */
 ul.connect.white li a.tumblr { background-image: url(./images/ui_shortcodes/social/tumblr-small-white.png); padding-left: 23px; }
-/* line 1798, scss/_alwaysplotting.scss */
+/* line 1800, scss/_alwaysplotting.scss */
 ul.connect.white li a.android { background-image: url(./images/ui_shortcodes/social/android-small-white.png); padding-left: 27px; }
-/* line 1802, scss/_alwaysplotting.scss */
+/* line 1804, scss/_alwaysplotting.scss */
 ul.connect.white li a.apple { background-image: url(./images/ui_shortcodes/social/apple-small-white.png); padding-left: 27px; }
-/* line 1806, scss/_alwaysplotting.scss */
+/* line 1808, scss/_alwaysplotting.scss */
 ul.connect.white li a.windows { background-image: url(./images/ui_shortcodes/social/windows-small-white.png); padding-left: 27px; }
 
 /*----------------------------
 iv.-- Media
 -----------------------------*/
-/* line 1817, scss/_alwaysplotting.scss */
+/* line 1819, scss/_alwaysplotting.scss */
 img { max-width: 100%; height: auto; }
 
-/* line 1821, scss/_alwaysplotting.scss */
+/* line 1823, scss/_alwaysplotting.scss */
 .map { word-wrap: normal; }
-/* line 1824, scss/_alwaysplotting.scss */
+/* line 1826, scss/_alwaysplotting.scss */
 .map img { max-width: none; }
 
 /*Images*/
-/* line 1831, scss/_alwaysplotting.scss */
+/* line 1833, scss/_alwaysplotting.scss */
 .display-image { position: relative; float: left; margin-bottom: 30px; overflow: hidden; color: #fff; border-color: #fff; }
-/* line 1839, scss/_alwaysplotting.scss */
+/* line 1841, scss/_alwaysplotting.scss */
 .display-image a { color: #fff; border-color: #fff; }
-/* line 1843, scss/_alwaysplotting.scss */
+/* line 1845, scss/_alwaysplotting.scss */
 .display-image img { max-width: 100%; height: auto; line-height: 0; display: block; position: relative; z-index: 0; display: block; }
 
-/* line 1853, scss/_alwaysplotting.scss */
+/* line 1855, scss/_alwaysplotting.scss */
 .linked-display-image { position: absolute; top: 0; left: 0; width: 100%; height: 100%; text-indent: -9999px; }
 
 /*Caption*/
-/* line 1863, scss/_alwaysplotting.scss */
+/* line 1865, scss/_alwaysplotting.scss */
 .caption { width: 60%; position: absolute; z-index: 4; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; /*Caption position:left*/ /*Caption position:right*/ }
-/* line 1870, scss/_alwaysplotting.scss */
+/* line 1872, scss/_alwaysplotting.scss */
 .caption.top-left { top: 50px; left: 50px; bottom: auto; right: auto; text-align: left; float: left; }
-/* line 1878, scss/_alwaysplotting.scss */
+/* line 1880, scss/_alwaysplotting.scss */
 .caption.bottom-left { bottom: 50px; left: 50px; right: auto; top: auto; text-align: left; float: left; }
-/* line 1887, scss/_alwaysplotting.scss */
+/* line 1889, scss/_alwaysplotting.scss */
 .caption.top-right { top: 50px; right: 50px; left: auto; bottom: auto; text-align: right; float: right; }
-/* line 1895, scss/_alwaysplotting.scss */
+/* line 1897, scss/_alwaysplotting.scss */
 .caption.bottom-right { bottom: 50px; right: 50px; left: auto; top: auto; text-align: right; float: right; }
 
 /*Caption position:center*/
-/* line 1907, scss/_alwaysplotting.scss */
+/* line 1909, scss/_alwaysplotting.scss */
 .centered-caption-wrapper { position: absolute; top: 0; width: 100%; height: 100%; }
 
-/* line 1913, scss/_alwaysplotting.scss */
+/* line 1915, scss/_alwaysplotting.scss */
 .caption-table { display: table; width: 100%; height: 100%; position: absolute; top: 0; }
-/* line 1920, scss/_alwaysplotting.scss */
+/* line 1922, scss/_alwaysplotting.scss */
 .caption-table .caption-table-cell { display: table-cell; height: 100%; vertical-align: middle; }
 
-/* line 1926, scss/_alwaysplotting.scss */
+/* line 1928, scss/_alwaysplotting.scss */
 .caption.center, .caption.center-left, .caption.center-right { position: relative; }
 
-/* line 1929, scss/_alwaysplotting.scss */
+/* line 1931, scss/_alwaysplotting.scss */
 .caption.center { text-align: center; width: 100%; margin: auto; }
 
-/* line 1934, scss/_alwaysplotting.scss */
+/* line 1936, scss/_alwaysplotting.scss */
 .caption.center-left { left: 50px; }
 
-/* line 1937, scss/_alwaysplotting.scss */
+/* line 1939, scss/_alwaysplotting.scss */
 .caption.center-right { right: 50px; text-align: right; float: right; }
 
-/* line 1944, scss/_alwaysplotting.scss */
+/* line 1946, scss/_alwaysplotting.scss */
 .caption .caption-table-cell .caption { text-align: center; margin: auto; }
-/* line 1948, scss/_alwaysplotting.scss */
+/* line 1950, scss/_alwaysplotting.scss */
 .caption p .submit:last-child { margin-bottom: 0; }
 
 /*Caption type: single border*/
 /*.display-image .single-border{}*/
-/* line 1957, scss/_alwaysplotting.scss */
+/* line 1959, scss/_alwaysplotting.scss */
 .display-image { /*sizes & font*/ /*Caption type: elegant*/ /*Caption type: boxed background*/ /*Caption type: striped  */ /*.display-image .striped{}*/ /*sizes & font*/ /*Caption type: centered  */ /*.display-image .impact{}*/ /*sizes & font*/ /*Caption Sizes*/ }
-/* line 1960, scss/_alwaysplotting.scss */
-.display-image .single-border { /*positioning*/ }
 /* line 1962, scss/_alwaysplotting.scss */
+.display-image .single-border { /*positioning*/ }
+/* line 1964, scss/_alwaysplotting.scss */
 .display-image .single-border .size-1 { font-size: 100px; line-height: 75px; }
-/* line 1966, scss/_alwaysplotting.scss */
+/* line 1968, scss/_alwaysplotting.scss */
 .display-image .single-border .size-2 { font-size: 80px; line-height: 60px; }
-/* line 1970, scss/_alwaysplotting.scss */
+/* line 1972, scss/_alwaysplotting.scss */
 .display-image .single-border .size-3 { font-size: 60px; line-height: 45px; }
-/* line 1974, scss/_alwaysplotting.scss */
+/* line 1976, scss/_alwaysplotting.scss */
 .display-image .single-border .size-4 { font-size: 50px; line-height: 40px; }
-/* line 1978, scss/_alwaysplotting.scss */
+/* line 1980, scss/_alwaysplotting.scss */
 .display-image .single-border .size-5 { font-size: 40px; line-height: 30px; }
-/* line 1982, scss/_alwaysplotting.scss */
+/* line 1984, scss/_alwaysplotting.scss */
 .display-image .single-border .size-6 { font-size: 30px; line-height: 25px; }
-/* line 1986, scss/_alwaysplotting.scss */
+/* line 1988, scss/_alwaysplotting.scss */
 .display-image .single-border .variation { font-weight: 400; }
-/* line 1989, scss/_alwaysplotting.scss */
+/* line 1991, scss/_alwaysplotting.scss */
 .display-image .single-border p { font: 15px/20px Arial,Helvetica,sans-serif; }
-/* line 1994, scss/_alwaysplotting.scss */
+/* line 1996, scss/_alwaysplotting.scss */
 .display-image .single-border.top-left, .display-image .single-border.bottom-left, .display-image .single-border.center-left { border-left: 10px solid; padding-left: 20px; }
-/* line 1998, scss/_alwaysplotting.scss */
+/* line 2000, scss/_alwaysplotting.scss */
 .display-image .single-border.top-right, .display-image .single-border.bottom-right, .display-image .single-border.center-right { border-right: 10px solid; padding-right: 20px; }
-/* line 2002, scss/_alwaysplotting.scss */
+/* line 2004, scss/_alwaysplotting.scss */
 .display-image .single-border.center { border-top: 10px solid; padding-top: 20px; }
-/* line 2009, scss/_alwaysplotting.scss */
+/* line 2011, scss/_alwaysplotting.scss */
 .display-image .elegant { font-family: inherit; line-height: 16px; /*sizes & font*/ }
-/* line 2014, scss/_alwaysplotting.scss */
+/* line 2016, scss/_alwaysplotting.scss */
 .display-image .elegant .size-1 { font-size: 65px; line-height: 49px; }
-/* line 2018, scss/_alwaysplotting.scss */
+/* line 2020, scss/_alwaysplotting.scss */
 .display-image .elegant .size-2 { font-size: 50px; line-height: 38px; }
-/* line 2022, scss/_alwaysplotting.scss */
+/* line 2024, scss/_alwaysplotting.scss */
 .display-image .elegant .size-3 { font-size: 40px; line-height: 30px; }
-/* line 2026, scss/_alwaysplotting.scss */
+/* line 2028, scss/_alwaysplotting.scss */
 .display-image .elegant .size-4 { font-size: 35px; line-height: 28px; }
-/* line 2030, scss/_alwaysplotting.scss */
+/* line 2032, scss/_alwaysplotting.scss */
 .display-image .elegant .size-5 { font-size: 30px; line-height: 22px; }
-/* line 2034, scss/_alwaysplotting.scss */
+/* line 2036, scss/_alwaysplotting.scss */
 .display-image .elegant .size-6 { font-size: 25px; line-height: 20px; }
-/* line 2038, scss/_alwaysplotting.scss */
+/* line 2040, scss/_alwaysplotting.scss */
 .display-image .elegant .variation { font-weight: 400; font-weight: 400; }
-/* line 2042, scss/_alwaysplotting.scss */
+/* line 2044, scss/_alwaysplotting.scss */
 .display-image .elegant p { font: 15px/20px Arial,Helvetica,sans-serif; }
-/* line 2048, scss/_alwaysplotting.scss */
+/* line 2050, scss/_alwaysplotting.scss */
 .display-image .boxed { padding: 20px; font-family: inherit; line-height: 16px; background: #000; background: rgba(0, 0, 0, 0.8); color: #fff; /*sizes & font*/ /*colors*/ }
-/* line 2057, scss/_alwaysplotting.scss */
+/* line 2059, scss/_alwaysplotting.scss */
 .display-image .boxed .size-1 { font-size: 28px; line-height: 24px; }
-/* line 2061, scss/_alwaysplotting.scss */
+/* line 2063, scss/_alwaysplotting.scss */
 .display-image .boxed .size-2 { font-size: 25px; line-height: 20px; }
-/* line 2065, scss/_alwaysplotting.scss */
+/* line 2067, scss/_alwaysplotting.scss */
 .display-image .boxed .size-3 { font-size: 22px; line-height: 19px; }
-/* line 2069, scss/_alwaysplotting.scss */
+/* line 2071, scss/_alwaysplotting.scss */
 .display-image .boxed .size-4 { font-size: 19px; line-height: 17px; }
-/* line 2073, scss/_alwaysplotting.scss */
+/* line 2075, scss/_alwaysplotting.scss */
 .display-image .boxed .size-5 { font-size: 16px; line-height: 13px; }
-/* line 2077, scss/_alwaysplotting.scss */
+/* line 2079, scss/_alwaysplotting.scss */
 .display-image .boxed .size-6 { font-size: 13px; line-height: 12px; }
-/* line 2081, scss/_alwaysplotting.scss */
+/* line 2083, scss/_alwaysplotting.scss */
 .display-image .boxed .variation { font-weight: 400; }
-/* line 2084, scss/_alwaysplotting.scss */
+/* line 2086, scss/_alwaysplotting.scss */
 .display-image .boxed p { font: 15px/20px Arial,Helvetica,sans-serif; }
-/* line 2089, scss/_alwaysplotting.scss */
+/* line 2091, scss/_alwaysplotting.scss */
 .display-image .boxed span { color: #fff; }
-/* line 2092, scss/_alwaysplotting.scss */
+/* line 2094, scss/_alwaysplotting.scss */
 .display-image .boxed.black { background: #fff; background: rgba(255, 255, 255, 0.8); color: #000; }
-/* line 2097, scss/_alwaysplotting.scss */
+/* line 2099, scss/_alwaysplotting.scss */
 .display-image .boxed.black.black span { color: #000; }
-/* line 2107, scss/_alwaysplotting.scss */
-.display-image .striped { /*colors*/ /*positioning*/ }
 /* line 2109, scss/_alwaysplotting.scss */
+.display-image .striped { /*colors*/ /*positioning*/ }
+/* line 2111, scss/_alwaysplotting.scss */
 .display-image .striped .size-1 { font-size: 100px; line-height: 100px; }
-/* line 2113, scss/_alwaysplotting.scss */
+/* line 2115, scss/_alwaysplotting.scss */
 .display-image .striped .size-2 { font-size: 80px; line-height: 80px; }
-/* line 2117, scss/_alwaysplotting.scss */
+/* line 2119, scss/_alwaysplotting.scss */
 .display-image .striped .size-3 { font-size: 60px; line-height: 60px; }
-/* line 2121, scss/_alwaysplotting.scss */
+/* line 2123, scss/_alwaysplotting.scss */
 .display-image .striped .size-4 { font-size: 50px; line-height: 50px; }
-/* line 2125, scss/_alwaysplotting.scss */
+/* line 2127, scss/_alwaysplotting.scss */
 .display-image .striped .size-5 { font-size: 40px; line-height: 40px; }
-/* line 2129, scss/_alwaysplotting.scss */
+/* line 2131, scss/_alwaysplotting.scss */
 .display-image .striped .size-6 { font-size: 30px; line-height: 30px; }
-/* line 2133, scss/_alwaysplotting.scss */
+/* line 2135, scss/_alwaysplotting.scss */
 .display-image .striped .size-1, .display-image .striped .size-2, .display-image .striped .size-3, .display-image .striped .size-4, .display-image .striped .size-5, .display-image .striped .size-6 { width: auto; margin-bottom: 3px; padding: 12px 20px; font-family: inherit; display: inline-block; -webkit-box-sizing: inherit; -moz-box-sizing: inherit; -ms-box-sizing: inherit; -o-box-sizing: inherit; box-sizing: inherit; }
-/* line 2141, scss/_alwaysplotting.scss */
+/* line 2143, scss/_alwaysplotting.scss */
 .display-image .striped .variation { font-weight: 400; }
-/* line 2146, scss/_alwaysplotting.scss */
+/* line 2148, scss/_alwaysplotting.scss */
 .display-image .striped span { background: #000; background: black; color: #fff; }
-/* line 2151, scss/_alwaysplotting.scss */
+/* line 2153, scss/_alwaysplotting.scss */
 .display-image .striped a span { -webkit-transition: background-color 0.25s ease-in-out; -moz-transition: background-color 0.25s ease-in-out; -ms-transition: background-color 0.25s ease-in-out; -o-transition: background-color 0.25s ease-in-out; transition: background-color 0.25s ease-in-out; }
-/* line 2154, scss/_alwaysplotting.scss */
+/* line 2156, scss/_alwaysplotting.scss */
 .display-image .striped a:hover span { background: #da1c28; color: #fff; }
-/* line 2160, scss/_alwaysplotting.scss */
+/* line 2162, scss/_alwaysplotting.scss */
 .display-image .striped.top-left span, .display-image .striped.bottom-left span { float: left; }
-/* line 2163, scss/_alwaysplotting.scss */
+/* line 2165, scss/_alwaysplotting.scss */
 .display-image .striped.top-right span, .display-image .striped.bottom-right span { float: right; }
-/* line 2174, scss/_alwaysplotting.scss */
+/* line 2176, scss/_alwaysplotting.scss */
 .display-image .impact .size-1 { font-size: 100px; line-height: 82px; }
-/* line 2178, scss/_alwaysplotting.scss */
+/* line 2180, scss/_alwaysplotting.scss */
 .display-image .impact .size-2 { font-size: 80px; line-height: 62px; }
-/* line 2182, scss/_alwaysplotting.scss */
+/* line 2184, scss/_alwaysplotting.scss */
 .display-image .impact .size-3 { font-size: 70px; line-height: 52px; }
-/* line 2186, scss/_alwaysplotting.scss */
+/* line 2188, scss/_alwaysplotting.scss */
 .display-image .impact .size-4 { font-size: 60px; line-height: 42px; }
-/* line 2190, scss/_alwaysplotting.scss */
+/* line 2192, scss/_alwaysplotting.scss */
 .display-image .impact .size-5 { font-size: 50px; line-height: 32px; }
-/* line 2194, scss/_alwaysplotting.scss */
+/* line 2196, scss/_alwaysplotting.scss */
 .display-image .impact .size-6 { font-size: 40px; line-height: 22px; }
-/* line 2198, scss/_alwaysplotting.scss */
+/* line 2200, scss/_alwaysplotting.scss */
 .display-image .impact .variation { font-weight: 400; font-weight: 400; }
-/* line 2202, scss/_alwaysplotting.scss */
+/* line 2204, scss/_alwaysplotting.scss */
 .display-image .impact p { font-size: 24px; line-height: 30px; font-weight: 200; font-family: "Source Sans Pro",sans-serif; }
-/* line 2211, scss/_alwaysplotting.scss */
+/* line 2213, scss/_alwaysplotting.scss */
 .display-image .size-1, .display-image .size-2, .display-image .size-3, .display-image .size-4, .display-image .size-5, .display-image .size-6 { font-family: 'Raleway',sans-serif; font-weight: 700; text-align: inherit; width: 100%; display: inline-block; }
-/* line 2218, scss/_alwaysplotting.scss */
+/* line 2220, scss/_alwaysplotting.scss */
 .display-image .size-1 { margin-bottom: 20px; }
-/* line 2221, scss/_alwaysplotting.scss */
+/* line 2223, scss/_alwaysplotting.scss */
 .display-image .size-2 { margin-bottom: 18px; }
-/* line 2224, scss/_alwaysplotting.scss */
+/* line 2226, scss/_alwaysplotting.scss */
 .display-image .size-3 { margin-bottom: 16px; }
-/* line 2227, scss/_alwaysplotting.scss */
+/* line 2229, scss/_alwaysplotting.scss */
 .display-image .size-4 { margin-bottom: 14px; }
-/* line 2230, scss/_alwaysplotting.scss */
+/* line 2232, scss/_alwaysplotting.scss */
 .display-image .size-5 { margin-bottom: 12px; }
-/* line 2233, scss/_alwaysplotting.scss */
+/* line 2235, scss/_alwaysplotting.scss */
 .display-image .size-6 { margin-bottom: 10px; }
-/* line 2236, scss/_alwaysplotting.scss */
+/* line 2238, scss/_alwaysplotting.scss */
 .display-image .caption p { margin-bottom: 20px; }
-/* line 2239, scss/_alwaysplotting.scss */
+/* line 2241, scss/_alwaysplotting.scss */
 .display-image .caption p:last-child { margin-bottom: 0 !important; }
-/* line 2243, scss/_alwaysplotting.scss */
+/* line 2245, scss/_alwaysplotting.scss */
 .display-image .submit { float: none; }
 
 /*Thumbs - Epic Hover*/
-/* line 2250, scss/_alwaysplotting.scss */
+/* line 2252, scss/_alwaysplotting.scss */
 .thumb { position: relative; overflow: hidden; line-height: 0; margin-bottom: 30px; }
-/* line 2256, scss/_alwaysplotting.scss */
+/* line 2258, scss/_alwaysplotting.scss */
 .thumb a { float: left; display: inline-block; width: 100%; height: 100%; line-height: 0; text-decoration: none; filter: inherit; }
-/* line 2265, scss/_alwaysplotting.scss */
+/* line 2267, scss/_alwaysplotting.scss */
 .thumb img, .thumb a img { width: inherit; max-width: 100%; height: auto; display: block; position: relative; }
-/* line 2272, scss/_alwaysplotting.scss */
+/* line 2274, scss/_alwaysplotting.scss */
 .thumb img.animationImage { display: none; position: absolute; top: 0; left: 0; }
-/* line 2278, scss/_alwaysplotting.scss */
+/* line 2280, scss/_alwaysplotting.scss */
 .thumb .rollover-wrapper { width: 100%; height: 100%; background: #000; /*ie8 fallback*/ background: rgba(0, 0, 0, 0.8); opacity: 0; filter: alpha(opacity=0); position: absolute; top: 0; z-index: 1; padding: 25px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
-/* line 2292, scss/_alwaysplotting.scss */
+/* line 2294, scss/_alwaysplotting.scss */
 .thumb .thumb-rollover { width: 100%; height: 100%; display: table; position: absolute; }
-/* line 2298, scss/_alwaysplotting.scss */
+/* line 2300, scss/_alwaysplotting.scss */
 .thumb .thumb-rollover .thumbInfo { display: table-cell; vertical-align: middle; width: 50%; font-size: 1em; letter-spacing: 0.06em; text-transform: uppercase; text-align: center; line-height: 1; font-weight: 600; padding: 25px !important; font-family: "proxima-nova-1", "proxima-nova-2", Helvetica, Arial, sans-serif; }
-/* line 2311, scss/_alwaysplotting.scss */
+/* line 2313, scss/_alwaysplotting.scss */
 .thumb .thumb-rollover .thumbInfo img.graphic { position: relative; margin: auto; width: auto; }
 
 /*WordPress default gallery + epic hover*/
-/* line 2322, scss/_alwaysplotting.scss */
+/* line 2324, scss/_alwaysplotting.scss */
 .gallery { margin-bottom: 30px !important; float: left; }
-/* line 2326, scss/_alwaysplotting.scss */
+/* line 2328, scss/_alwaysplotting.scss */
 .gallery br { display: none; }
-/* line 2329, scss/_alwaysplotting.scss */
+/* line 2331, scss/_alwaysplotting.scss */
 .gallery .gallery-item { width: 100%; position: relative; overflow: hidden; margin-top: 0 !important; margin-bottom: 0; }
-/* line 2336, scss/_alwaysplotting.scss */
+/* line 2338, scss/_alwaysplotting.scss */
 .gallery .gallery-caption { width: 100%; position: absolute; bottom: 0; background: #000; /*ie8 fallback*/ background: rgba(0, 0, 0, 0.5); padding: 3px 5px; color: #fff; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
 
-/* line 2348, scss/_alwaysplotting.scss */
+/* line 2350, scss/_alwaysplotting.scss */
 .gallery-icon { width: 100%; position: relative; overflow: hidden; }
-/* line 2353, scss/_alwaysplotting.scss */
+/* line 2355, scss/_alwaysplotting.scss */
 .gallery-icon img { display: block; width: 100%; max-width: 100%; height: auto; border: none !important; }
-/* line 2360, scss/_alwaysplotting.scss */
+/* line 2362, scss/_alwaysplotting.scss */
 .gallery-icon img.animationImage { display: none; position: absolute; top: 0; left: 0; }
-/* line 2367, scss/_alwaysplotting.scss */
+/* line 2369, scss/_alwaysplotting.scss */
 .gallery-icon a { width: 100%; height: 100%; display: block; line-height: 0; text-decoration: none; }
-/* line 2374, scss/_alwaysplotting.scss */
+/* line 2376, scss/_alwaysplotting.scss */
 .gallery-icon .rollover-wrapper { width: 100%; height: 100%; background: #000; /*ie8 fallback*/ background: rgba(0, 0, 0, 0.8); opacity: 0; filter: alpha(opacity=0); position: absolute; top: 0; z-index: 1; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
-/* line 2387, scss/_alwaysplotting.scss */
+/* line 2389, scss/_alwaysplotting.scss */
 .gallery-icon .thumb-rollover { width: 100%; height: 100%; display: table; position: absolute; }
-/* line 2393, scss/_alwaysplotting.scss */
+/* line 2395, scss/_alwaysplotting.scss */
 .gallery-icon .thumb-rollover .thumbInfo { display: table-cell; vertical-align: middle; width: 100%; font: 14px 'Open Sans',sans-serif; font-weight: 400; text-align: center; }
-/* line 2401, scss/_alwaysplotting.scss */
+/* line 2403, scss/_alwaysplotting.scss */
 .gallery-icon .thumb-rollover .thumbInfo img.graphic { width: auto; height: auto; max-width: 50%; max-height: 50%; position: relative; margin: auto; }
 
-/* line 2411, scss/_alwaysplotting.scss */
+/* line 2413, scss/_alwaysplotting.scss */
 .gallery-columns-2 .gallery-item { width: 50% !important; }
 
-/* line 2414, scss/_alwaysplotting.scss */
+/* line 2416, scss/_alwaysplotting.scss */
 .gallery-columns-3 .gallery-item { width: 33.333% !important; }
 
-/* line 2417, scss/_alwaysplotting.scss */
+/* line 2419, scss/_alwaysplotting.scss */
 .gallery-columns-4 .gallery-item { width: 25% !important; }
 
-/* line 2420, scss/_alwaysplotting.scss */
+/* line 2422, scss/_alwaysplotting.scss */
 .gallery-columns-5 .gallery-item { width: 20% !important; }
 
-/* line 2423, scss/_alwaysplotting.scss */
+/* line 2425, scss/_alwaysplotting.scss */
 .gallery-columns-6 .gallery-item { width: 16.666% !important; }
 
-/* line 2426, scss/_alwaysplotting.scss */
+/* line 2428, scss/_alwaysplotting.scss */
 .gallery-columns-7 .gallery-item { width: 14.285% !important; }
 
-/* line 2429, scss/_alwaysplotting.scss */
+/* line 2431, scss/_alwaysplotting.scss */
 .gallery-columns-8 .gallery-item { width: 12.5% !important; }
 
-/* line 2432, scss/_alwaysplotting.scss */
+/* line 2434, scss/_alwaysplotting.scss */
 .gallery-columns-9 .gallery-item { width: 11.111% !important; }
 
 /*Fancybox*/
-/* line 2438, scss/_alwaysplotting.scss */
+/* line 2440, scss/_alwaysplotting.scss */
 .fancybox-html { display: none; }
 
-/* line 2441, scss/_alwaysplotting.scss */
+/* line 2443, scss/_alwaysplotting.scss */
 #fancybox-outer, #fancybox-content iframe { background: #fff; }
 
-/* line 2444, scss/_alwaysplotting.scss */
+/* line 2446, scss/_alwaysplotting.scss */
 #fancybox-content { border: 0 solid #000; }
 
-/* line 2447, scss/_alwaysplotting.scss */
+/* line 2449, scss/_alwaysplotting.scss */
 #fancybox-left { left: -40px; }
 
-/* line 2450, scss/_alwaysplotting.scss */
+/* line 2452, scss/_alwaysplotting.scss */
 #fancybox-right { right: -40px; }
 
-/* line 2453, scss/_alwaysplotting.scss */
+/* line 2455, scss/_alwaysplotting.scss */
 #fancybox-left, #fancybox-right { width: 30px; opacity: 1; filter: alpha(opacity=100); }
 
-/* line 2458, scss/_alwaysplotting.scss */
+/* line 2460, scss/_alwaysplotting.scss */
 #fancybox-left-ico, #fancybox-right-ico, #fancybox-close { width: 30px; height: 30px; -webkit-transition: opacity 0.25s ease-in-out; -moz-transition: opacity 0.25s ease-in-out; -ms-transition: opacity 0.25s ease-in-out; -o-transition: opacity 0.25s ease-in-out; transition: opacity 0.25s ease-in-out; }
 
-/* line 2463, scss/_alwaysplotting.scss */
+/* line 2465, scss/_alwaysplotting.scss */
 #fancybox-left-ico { background: black url(./images/fancybox/fancybox.png) -43px -27px no-repeat; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
 
-/* line 2467, scss/_alwaysplotting.scss */
+/* line 2469, scss/_alwaysplotting.scss */
 #fancybox-right-ico { background: black url(./images/fancybox/fancybox.png) -44px -67px no-repeat; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
 
-/* line 2471, scss/_alwaysplotting.scss */
+/* line 2473, scss/_alwaysplotting.scss */
 #fancybox-left-ico:hover, #fancybox-right-ico:hover { opacity: .5; filter: alpha(opacity=50); }
 
-/* line 2475, scss/_alwaysplotting.scss */
+/* line 2477, scss/_alwaysplotting.scss */
 #fancybox-close { background: url(./images/fancybox/fancybox.png) -48px -1px; width: 21px; height: 21px; top: -25px; right: -25px; opacity: 1; filter: alpha(opacity=100); -webkit-transition: opacity 0.25s ease-in-out; -moz-transition: opacity 0.25s ease-in-out; -ms-transition: opacity 0.25s ease-in-out; -o-transition: opacity 0.25s ease-in-out; transition: opacity 0.25s ease-in-out; }
-/* line 2485, scss/_alwaysplotting.scss */
+/* line 2487, scss/_alwaysplotting.scss */
 #fancybox-close:hover { opacity: .5; filter: alpha(opacity=50); }
 
-/* line 2491, scss/_alwaysplotting.scss */
+/* line 2493, scss/_alwaysplotting.scss */
 .fancybox-title-over span { background: url(./images/fancybox/transparent-bkg.png) repeat; /*ie8 fallback*/ background: rgba(0, 0, 0, 0.8); padding: 15px; width: 150px; display: block; left: 30px; position: relative; overflow: hidden; }
 
-/* line 2502, scss/_alwaysplotting.scss */
+/* line 2504, scss/_alwaysplotting.scss */
 .fancybox-title-outside { padding: 0; margin-top: 15px; }
 
 /*Caption titles & text*/
-/* line 2509, scss/_alwaysplotting.scss */
+/* line 2511, scss/_alwaysplotting.scss */
 #fancybox-title h1, #fancybox-title h2, #fancybox-title h3, #fancybox-title h4, #fancybox-title h5, #fancybox-title h6 { margin-bottom: 10px; }
 
-/* line 2514, scss/_alwaysplotting.scss */
+/* line 2516, scss/_alwaysplotting.scss */
 #fancybox-title .fancybox-num { margin-bottom: 10px; }
-/* line 2517, scss/_alwaysplotting.scss */
+/* line 2519, scss/_alwaysplotting.scss */
 #fancybox-title p:last-child { margin-bottom: 0; }
 
 /*Epic slider & Flex slider - theme specific*/
-/* line 2524, scss/_alwaysplotting.scss */
+/* line 2526, scss/_alwaysplotting.scss */
 .epic-slider .errorMsg, .featured-media-container { color: #ef644e !important; }
 
-/* line 2527, scss/_alwaysplotting.scss */
+/* line 2529, scss/_alwaysplotting.scss */
 .epic-slider .errorMsg { display: block; margin-top: 200px; text-align: center; }
 
 /*Flex slider - theme specific*/
-/* line 2535, scss/_alwaysplotting.scss */
+/* line 2537, scss/_alwaysplotting.scss */
 .flexslider { border: none; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; margin-bottom: 30px; overflow: hidden; }
 
 /*Navigation */
-/* line 2543, scss/_alwaysplotting.scss */
+/* line 2545, scss/_alwaysplotting.scss */
 .flex-direction-nav { height: 0; position: absolute; bottom: 0; }
-/* line 2548, scss/_alwaysplotting.scss */
+/* line 2550, scss/_alwaysplotting.scss */
 .flex-direction-nav li { margin-bottom: 0; }
-/* line 2551, scss/_alwaysplotting.scss */
+/* line 2553, scss/_alwaysplotting.scss */
 .flex-direction-nav li a { width: 40px; height: 40px; display: block; position: absolute; bottom: 0; top: auto; cursor: pointer; text-indent: -999em; }
-/* line 2561, scss/_alwaysplotting.scss */
+/* line 2563, scss/_alwaysplotting.scss */
 .flex-direction-nav li .prev { background: black url(./images/ui_flex/bg_direction_nav.png) 0 0 no-repeat; /*ie8 fallback*/ background: rgba(0, 0, 0, 0.8) url(./images/ui_flex/bg_direction_nav.png) 0 0 no-repeat; left: 0; }
-/* line 2567, scss/_alwaysplotting.scss */
+/* line 2569, scss/_alwaysplotting.scss */
 .flex-direction-nav li .next { background: black url(./images/ui_flex/bg_direction_nav.png) 0 -40px no-repeat; /*ie8 fallback*/ background: rgba(0, 0, 0, 0.8) url(./images/ui_flex/bg_direction_nav.png) 0 -40px no-repeat; right: auto; left: 41px; }
-/* line 2574, scss/_alwaysplotting.scss */
+/* line 2576, scss/_alwaysplotting.scss */
 .flex-direction-nav li .disabled { opacity: .3; filter: alpha(opacity=30); cursor: default; }
 
 /*Control*/
-/* line 2584, scss/_alwaysplotting.scss */
+/* line 2586, scss/_alwaysplotting.scss */
 .flex-control-nav { width: 100%; position: absolute; bottom: auto; top: 18px; text-align: right; right: 20px; }
-/* line 2592, scss/_alwaysplotting.scss */
+/* line 2594, scss/_alwaysplotting.scss */
 .flex-control-nav li { margin: 0 0 0 5px; display: inline-block; zoom: 1; display: inline; }
-/* line 2598, scss/_alwaysplotting.scss */
+/* line 2600, scss/_alwaysplotting.scss */
 .flex-control-nav li a { width: 10px; height: 10px; border-radius: 50%; content: ""; display: inline-block; overflow: hidden; text-align: left; text-indent: -9999px; background-color: #b2b2b2; /*fallback for iE8*/ background: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); }
-/* line 2612, scss/_alwaysplotting.scss */
+/* line 2614, scss/_alwaysplotting.scss */
 .flex-control-nav li:hover { border: 1px solid rgba(0, 0, 0, 0.3); background: #fff; }
-/* line 2616, scss/_alwaysplotting.scss */
+/* line 2618, scss/_alwaysplotting.scss */
 .flex-control-nav li.active { border: 1px solid #fff; background: #3B3B3B; }
 
 /*Caption*/
-/* line 2625, scss/_alwaysplotting.scss */
+/* line 2627, scss/_alwaysplotting.scss */
 .flex-caption { -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1; width: auto; padding: 11px 15px; margin: 0; position: absolute; left: 82px; bottom: 0; background: rgba(0, 0, 0, 0.8); color: white !important; text-shadow: 0 0 0 rgba(0, 0, 0, 0); font-size: 14px; margin: 0 !important; }
 
 /*video*/
-/* line 2644, scss/_alwaysplotting.scss */
+/* line 2646, scss/_alwaysplotting.scss */
 .video { margin-bottom: 30px; }
-/* line 2647, scss/_alwaysplotting.scss */
+/* line 2649, scss/_alwaysplotting.scss */
 .video video, .video iframe, .video object, .video embed, .video div { width: 100%; height: 100% !important; max-width: 100% !important; max-height: 100% !important; }
-/* line 2653, scss/_alwaysplotting.scss */
+/* line 2655, scss/_alwaysplotting.scss */
 .video.fullwidth { width: 870px; height: 488px; margin-bottom: 30px; }
 
 /*WordPress native audio player*/
-/* line 2662, scss/_alwaysplotting.scss */
+/* line 2664, scss/_alwaysplotting.scss */
 .wp-audio-shortcode { float: left; margin-bottom: 30px; }
 
-/* line 2668, scss/_alwaysplotting.scss */
+/* line 2670, scss/_alwaysplotting.scss */
 .mejs-controls .mejs-time-rail .mejs-time-loaded { background-color: #e6e6e6 !important; }
-/* line 2671, scss/_alwaysplotting.scss */
+/* line 2673, scss/_alwaysplotting.scss */
 .mejs-controls .mejs-time-rail .mejs-time-current { background-color: red !important; }
 
 /*Soundcloud*/
-/* line 2677, scss/_alwaysplotting.scss */
+/* line 2679, scss/_alwaysplotting.scss */
 .soundcloud-wrapper { height: 166px; margin-bottom: 30px; }
 
 /*Google Map
 ----------------------------*/
-/* line 2684, scss/_alwaysplotting.scss */
+/* line 2686, scss/_alwaysplotting.scss */
 #map_canvas { margin-bottom: 30px; }
 
 /*Dividers
 ----------------------------*/
-/* line 2690, scss/_alwaysplotting.scss */
+/* line 2692, scss/_alwaysplotting.scss */
 .divider { border-top: 1px solid #e2e2e2; margin: 0 0 50px; }
 
 /*Tables	
 -----------------------------*/
-/* line 2697, scss/_alwaysplotting.scss */
+/* line 2699, scss/_alwaysplotting.scss */
 table { margin-bottom: 30px; border-spacing: 10px; }
 
-/* line 2701, scss/_alwaysplotting.scss */
+/* line 2703, scss/_alwaysplotting.scss */
 th { font-weight: 700; }
 
 /*Definition lists	
 -----------------------------*/
-/* line 2707, scss/_alwaysplotting.scss */
+/* line 2709, scss/_alwaysplotting.scss */
 dl { margin-bottom: 30px; }
-/* line 2710, scss/_alwaysplotting.scss */
+/* line 2712, scss/_alwaysplotting.scss */
 dl dt { font-weight: 700; }
-/* line 2713, scss/_alwaysplotting.scss */
+/* line 2715, scss/_alwaysplotting.scss */
 dl dd { margin-left: 15px; }
 
 /*--------------------------------------------------------
 	3.--TYPOGRAPHY & LINKS & SELECTION
 --------------------------------------------------------*/
 /*Title sizes,font & color*/
-/* line 2724, scss/_alwaysplotting.scss */
+/* line 2726, scss/_alwaysplotting.scss */
 h1, h2, h3, h4, h5, h6, #section-title { font-family: "brandon-grotesque-1", "brandon-grotesque-2", Helvetica, Arial, sans-serif; font-weight: 600; letter-spacing: 0; text-transform: uppercase; margin-top: 0; text-rendering: optimizeLegibility; }
-/* line 2732, scss/_alwaysplotting.scss */
+/* line 2734, scss/_alwaysplotting.scss */
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, #section-title span { font-family: inherit; display: block; }
-/* line 2736, scss/_alwaysplotting.scss */
+/* line 2738, scss/_alwaysplotting.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, #section-title a { text-decoration: none; border-bottom: 0 !important; margin-bottom: 0 !important; }
 
-/* line 2743, scss/_alwaysplotting.scss */
+/* line 2745, scss/_alwaysplotting.scss */
 h1 { font-size: 3.75em; line-height: 48px; margin-bottom: 30px; }
-/* line 2748, scss/_alwaysplotting.scss */
+/* line 2750, scss/_alwaysplotting.scss */
 #section-title h1 { font-size: 4.375em; line-height: 1; margin: 0; color: #222; font-weight: 400; letter-spacing: 0.04em; }
 
-/* line 2758, scss/_alwaysplotting.scss */
+/* line 2760, scss/_alwaysplotting.scss */
 h2 { font-size: 2.625em; line-height: 40px; margin-bottom: 28px; font-weight: 400; }
-/* line 2764, scss/_alwaysplotting.scss */
+/* line 2766, scss/_alwaysplotting.scss */
 #section-title h2 { margin: 0; }
 
-/* line 2769, scss/_alwaysplotting.scss */
+/* line 2771, scss/_alwaysplotting.scss */
 h3 { font-size: 1.875em; line-height: 33px; margin-bottom: 26px; }
-/* line 2774, scss/_alwaysplotting.scss */
+/* line 2776, scss/_alwaysplotting.scss */
 #section-title h3 { margin: 0; }
 
-/* line 2779, scss/_alwaysplotting.scss */
+/* line 2781, scss/_alwaysplotting.scss */
 h4 { font-size: 1.5em; line-height: 24px; margin-bottom: 24px; }
-/* line 2784, scss/_alwaysplotting.scss */
+/* line 2786, scss/_alwaysplotting.scss */
 #section-title h4 { margin: 0; }
 
-/* line 2789, scss/_alwaysplotting.scss */
+/* line 2791, scss/_alwaysplotting.scss */
 h5 { font-size: 1.125em; line-height: 22px; margin-bottom: 22px; }
-/* line 2794, scss/_alwaysplotting.scss */
+/* line 2796, scss/_alwaysplotting.scss */
 #section-title h5 { margin: 0; }
 
-/* line 2799, scss/_alwaysplotting.scss */
+/* line 2801, scss/_alwaysplotting.scss */
 h6 { font-size: 1em; line-height: 18px; margin-bottom: 20px; }
-/* line 2804, scss/_alwaysplotting.scss */
+/* line 2806, scss/_alwaysplotting.scss */
 #section-title h6 { margin: 0; }
 
 /*Links*/
-/* line 2811, scss/_alwaysplotting.scss */
+/* line 2813, scss/_alwaysplotting.scss */
 a { color: #ff9000; text-decoration: none; }
-/* line 2815, scss/_alwaysplotting.scss */
+/* line 2817, scss/_alwaysplotting.scss */
 a:hover { color: #ff9000; }
 
 /*Text*/
-/* line 2821, scss/_alwaysplotting.scss */
+/* line 2823, scss/_alwaysplotting.scss */
 p { font-family: "freight-sans-pro-1", "freight-sans-pro-2", Helvetica, Arial, sans-serif; margin: 0 0 30px; line-height: 1.5; font-size: 1.125em; }
-/* line 2827, scss/_alwaysplotting.scss */
+/* line 2829, scss/_alwaysplotting.scss */
 .pages p:last-child { margin-bottom: 0; }
 
 /*Lighbox title sizes,font & colors*/
-/* line 2834, scss/_alwaysplotting.scss */
+/* line 2836, scss/_alwaysplotting.scss */
 #fancybox-title { font-size: 0.6875em; line-height: 12px; color: #999; }
-/* line 2839, scss/_alwaysplotting.scss */
+/* line 2841, scss/_alwaysplotting.scss */
 #fancybox-title h1, #fancybox-title h2, #fancybox-title h3, #fancybox-title h4, #fancybox-title h5, #fancybox-title h6 { color: #fff; }
-/* line 2843, scss/_alwaysplotting.scss */
+/* line 2845, scss/_alwaysplotting.scss */
 #fancybox-title h1 { font-size: 1.125em; line-height: 18px; }
-/* line 2847, scss/_alwaysplotting.scss */
+/* line 2849, scss/_alwaysplotting.scss */
 #fancybox-title h2 { font-size: 1em; line-height: 16px; }
-/* line 2851, scss/_alwaysplotting.scss */
+/* line 2853, scss/_alwaysplotting.scss */
 #fancybox-title h3 { font-size: 0.875em; line-height: 14px; }
-/* line 2855, scss/_alwaysplotting.scss */
+/* line 2857, scss/_alwaysplotting.scss */
 #fancybox-title h4 { font-size: 0.75em; line-height: 12px; }
-/* line 2859, scss/_alwaysplotting.scss */
+/* line 2861, scss/_alwaysplotting.scss */
 #fancybox-title h5 { font-size: 0.6875em; line-height: 11px; }
-/* line 2863, scss/_alwaysplotting.scss */
+/* line 2865, scss/_alwaysplotting.scss */
 #fancybox-title h6 { font-size: 0.625em; line-height: 10px; }
 
-/* line 2871, scss/_alwaysplotting.scss */
+/* line 2873, scss/_alwaysplotting.scss */
 .fancybox-title-over span h1, .fancybox-title-over span h2, .fancybox-title-over span h3, .fancybox-title-over span h4, .fancybox-title-over span h5, .fancybox-title-over span h6 { color: #fff; }
 
-/* line 2878, scss/_alwaysplotting.scss */
+/* line 2880, scss/_alwaysplotting.scss */
 .fancybox-title-outside h1, .fancybox-title-outside h2, .fancybox-title-outside h3, .fancybox-title-outside h4, .fancybox-title-outside h5, .fancybox-title-outside h6 { color: #fff; }
 
 /*--------------------------------------------------------
 	4.--MISC
 --------------------------------------------------------*/
-/* line 2889, scss/_alwaysplotting.scss */
+/* line 2891, scss/_alwaysplotting.scss */
 .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
-/* line 2897, scss/_alwaysplotting.scss */
+/* line 2899, scss/_alwaysplotting.scss */
 .clear { clear: both; }
 
-/* line 2901, scss/_alwaysplotting.scss */
+/* line 2903, scss/_alwaysplotting.scss */
 .left { float: left !important; }
 
-/* line 2905, scss/_alwaysplotting.scss */
+/* line 2907, scss/_alwaysplotting.scss */
 .right { float: right !important; }
 
-/* line 2909, scss/_alwaysplotting.scss */
+/* line 2911, scss/_alwaysplotting.scss */
 .last { margin: 0 0 50px; }
 
 /*message box*/
-/* line 2915, scss/_alwaysplotting.scss */
+/* line 2917, scss/_alwaysplotting.scss */
 .message_box { padding: 15px; margin-bottom: 50px; background: #f6f6f6; border: 1px solid #ddd; color: #999; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
-/* line 2923, scss/_alwaysplotting.scss */
+/* line 2925, scss/_alwaysplotting.scss */
 .message_box:hover { background: #f9f9f9; border: 1px solid #ddd; color: #888; }
 
-/* line 2931, scss/_alwaysplotting.scss */
+/* line 2933, scss/_alwaysplotting.scss */
 pre { white-space: pre-wrap; /* css-3 */ white-space: -moz-pre-wrap; /* Mozilla, since 1999 */ white-space: -pre-wrap; /* Opera 4-6 */ white-space: -o-pre-wrap; /* Opera 7 */ word-wrap: break-word; /* Internet Explorer 5.5+ */ }
 
 /*highlight selection*/
-/* line 2945, scss/_alwaysplotting.scss */
+/* line 2947, scss/_alwaysplotting.scss */
 ::selection { background: #ff9000; color: #fff; }
 
-/* line 2950, scss/_alwaysplotting.scss */
+/* line 2952, scss/_alwaysplotting.scss */
 ::-moz-selection { background: #ff9000; color: #fff; }
 
-/* line 2955, scss/_alwaysplotting.scss */
+/* line 2957, scss/_alwaysplotting.scss */
 ::-webkit-selection { background: #ff9000; color: #fff; }
 
 /*--------------------------------------------------------
 	5.--REQUIRED
 --------------------------------------------------------*/
-/* line 2965, scss/_alwaysplotting.scss */
+/* line 2967, scss/_alwaysplotting.scss */
 .alignright { float: right; margin: 0 0 30px 30px; }
 
-/* line 2970, scss/_alwaysplotting.scss */
+/* line 2972, scss/_alwaysplotting.scss */
 .alignleft { float: left; margin: 0 30px 30px 0; }
 
-/* line 2975, scss/_alwaysplotting.scss */
+/* line 2977, scss/_alwaysplotting.scss */
 .aligncenter { display: block; margin: auto; }
 
-/* line 2980, scss/_alwaysplotting.scss */
+/* line 2982, scss/_alwaysplotting.scss */
 .alignnone { margin: 0 0 30px; }
 
-/* line 2984, scss/_alwaysplotting.scss */
+/* line 2986, scss/_alwaysplotting.scss */
 .wp-caption { max-width: 100%; margin-bottom: 30px; }
 
-/* line 2989, scss/_alwaysplotting.scss */
+/* line 2991, scss/_alwaysplotting.scss */
 .wp-caption-text { font-style: italic; }

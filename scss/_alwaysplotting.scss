@@ -14,7 +14,7 @@ $proxima: "proxima-nova-1","proxima-nova-2", $header-font-family;
 
 $white: #fff;
 $black: #000;
-$darkgrey: #494949;
+$darkgrey: #333;
 $yellow: #ffbc09;
 $blue: #18accc;
 $blue2: #38b;
@@ -23,6 +23,7 @@ $orange: #e55c2e;
 // $accent: #00ff9c;
 $accent: #ff9000;
 // $accent: turquoise;
+// $accent: #00aade;
 $slate: darkslategrey;
 
 
@@ -85,7 +86,8 @@ $slate: darkslategrey;
 	#header-wrapper {
 		width:100%;
 		margin-bottom:25px;
-		background-color: $accent;
+		background:$darkgrey;
+		// background:$accent url('/wp-content/themes/alwaysplotting/images/stardust_@2X.png') repeat top left 50%;
 		padding: 15px 0;
 
 		#header-inner {
@@ -171,7 +173,7 @@ $slate: darkslategrey;
 					}
 					a {
 						color:white;
-						background-color: $accent;
+						background-color: $darkgrey;
 						text-decoration:none;
 						text-align: center;
 						padding: 4px 8px;
@@ -179,7 +181,7 @@ $slate: darkslategrey;
 						@include transition(color .25s ease-out);
 
 						&:hover {
-							color:$accent;
+							color:$darkgrey;
 							background-color:white;
 							// @include transition(color .25s ease-in);
 							@include transition(background-color .25s ease-in);
